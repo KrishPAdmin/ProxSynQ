@@ -21,7 +21,7 @@ This task list reflects the latest expectations discussed in the email thread wi
 **Done when:** Deepu and the professor understand the approach clearly and the solo request is addressed.
 
 ### 0.2 Repo structure and documentation baseline
-- [ ] Populate these files with initial content:
+- [*] Populate these files with initial content:
   - `README.md`
   - `docs/architecture.md`
   - `docs/quickstart.md`
