@@ -11,17 +11,17 @@ This task list reflects the latest expectations discussed in the email thread wi
 ## Phase 0: Alignment, repo baseline, and implementation clarity
 
 ### 0.1 Confirm project direction with course staff
-- [ ] Meet or message Deepu to walk through the implementation approach end to end
-- [ ] Clarify “host vs guest OS” wording:
+- [x] Meet or message Deepu to walk through the implementation approach end to end
+- [x] Clarify “host vs guest OS” wording:
   - Sync Agent interacts with the guest OS inside each VM (filesystem monitoring, atomic writes)
   - ProxMox host actions happen via the ProxMox VE API (start/stop/reboot, fault injection)
-- [ ] Reiterate individual completion request and accountability
-- [ ] Capture Deepu feedback and adjust scope if needed
+- [x] Reiterate individual completion request and accountability
+- [x] Capture Deepu feedback and adjust scope if needed
 
 **Done when:** Deepu and the professor understand the approach clearly and the solo request is addressed.
 
 ### 0.2 Repo structure and documentation baseline
-- [*] Populate these files with initial content:
+- [x] Populate these files with initial content:
   - `README.md`
   - `docs/architecture.md`
   - `docs/quickstart.md`
@@ -30,21 +30,21 @@ This task list reflects the latest expectations discussed in the email thread wi
   - `docs/networking.md`
   - `docs/storage-options.md`
   - `docs/failure-tests.md`
-- [ ] Add a short “Implementation Approach” subsection in `docs/architecture.md` that explicitly mentions:
+- [x] Add a short “Implementation Approach” subsection in `docs/architecture.md` that explicitly mentions:
   - Python services inside VMs
   - ProxMox VE API usage for orchestration and fault injection
   - Optional Raspberry Pi out of band coordinator
-- [ ] Ensure `docs/demo.md` contains a repeatable demo checklist aligned with failures and recovery
+- [x] Ensure `docs/demo.md` contains a repeatable demo checklist aligned with failures and recovery
 
 **Done when:** someone can read the docs and understand exactly what will be built and how it will be demonstrated.
 
 ### 0.3 Define core system contracts
-- [ ] Define and document the job message schema:
+- [x] Define and document the job message schema:
   - fields: `job_type`, `payload`, `idempotency_key`, `priority`, `timestamp`
-- [ ] Define the sync scope directory and directory rules:
+- [x] Define the sync scope directory and directory rules:
   - example: `/srv/proxsyncq/watch`
   - define what file types are included or excluded
-- [ ] Define “conflict” precisely for the Minimum Viable Product and how conflicts are stored/preserved
+- [x] Define “conflict” precisely for the Minimum Viable Product and how conflicts are stored/preserved
 
 **Done when:** docs precisely specify formats, paths, and Minimum Viable Product behavior.
 
@@ -53,17 +53,17 @@ This task list reflects the latest expectations discussed in the email thread wi
 ## Phase 1: VM infrastructure, networking, and ProxMox API access (3-node baseline)
 
 ### 1.1 Node identity, connectivity, and time sync
-- [ ] Set hostnames: `vm1`, `vm2`, `vm3`
-- [ ] Configure static IPs and update `/etc/hosts` on all nodes
-- [ ] Confirm SSH connectivity to each node by hostname
-- [ ] Confirm time sync is correct and consistent on all nodes
+- [x] Set hostnames: `vm1`, `vm2`, `vm3`
+- [x] Configure static IPs and update `/etc/hosts` on all nodes
+- [x] Confirm SSH connectivity to each node by hostname
+- [x] Confirm time sync is correct and consistent on all nodes
 
 **Done when:** you can SSH by hostname to each node and timestamps are consistent across logs.
 
 ### 1.2 Ports and basic firewall policy
-- [ ] Decide where control plane services live for Minimum Viable Product (start on `vm1`)
-- [ ] Apply firewall rules to allow only required ports on the private subnet
-- [ ] Document the port matrix in `docs/networking.md`
+- [x] Decide where control plane services live for Minimum Viable Product (start on `vm1`)
+- [x] Apply firewall rules to allow only required ports on the private subnet
+- [x] Document the port matrix in `docs/networking.md`
 
 **Done when:** only required ports are reachable and the network assumptions are documented.
 
