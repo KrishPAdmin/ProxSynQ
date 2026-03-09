@@ -1,0 +1,6 @@
+### docker_compose_ps_vm1
+
+time="2026-03-09T01:27:00Z" level=warning msg="/home/krishadmin/proxsyncq/infra/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+NAME                 IMAGE                   COMMAND                  SERVICE    CREATED      STATUS      PORTS
+proxsyncq-postgres   postgres:16             "docker-entrypoint.s…"   postgres   2 days ago   Up 2 days   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
+proxsyncq-rabbitmq   rabbitmq:3-management   "docker-entrypoint.s…"   rabbitmq   2 days ago   Up 2 days   4369/tcp, 5671/tcp, 0.0.0.0:5672->5672/tcp, [::]:5672->5672/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:15672->15672/tcp, [::]:15672->15672/tcp

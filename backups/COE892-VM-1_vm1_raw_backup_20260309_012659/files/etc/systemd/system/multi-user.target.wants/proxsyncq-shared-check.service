@@ -1,0 +1,12 @@
+[Unit]
+Description=ProxSyncQ shared mount check
+After=network-online.target remote-fs.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/proxsyncq-shared-check.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

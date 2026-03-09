@@ -1,0 +1,11 @@
+[Unit]
+Description=ProxSyncQ SSH permission self-heal
+After=local-fs.target
+Before=ssh.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/proxsyncq-ssh-fix.sh
+
+[Install]
+WantedBy=multi-user.target

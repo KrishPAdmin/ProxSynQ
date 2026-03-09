@@ -1,0 +1,6 @@
+### docker_compose_ps_rpi
+
+NAME                   IMAGE                      COMMAND                  SERVICE      CREATED        STATUS        PORTS
+proxsyncq-control-ui   proxsyncq-rpi-control_ui   "uvicorn app:app --h…"   control_ui   45 hours ago   Up 45 hours   0.0.0.0:8080->8080/tcp, :::8080->8080/tcp
+proxsyncq-grafana      grafana/grafana:latest     "/run.sh"                grafana      2 days ago     Up 2 days     0.0.0.0:3000->3000/tcp, :::3000->3000/tcp
+proxsyncq-prometheus   prom/prometheus:latest     "/bin/prometheus --c…"   prometheus   2 days ago     Up 46 hours   0.0.0.0:9090->9090/tcp, :::9090->9090/tcp

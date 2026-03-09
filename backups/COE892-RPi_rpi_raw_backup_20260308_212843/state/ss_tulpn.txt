@@ -1,0 +1,19 @@
+### ss_tulpn
+
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess                                   
+udp   UNCONN 0      0            0.0.0.0:33542      0.0.0.0:*    users:(("avahi-daemon",pid=565,fd=14))   
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*    users:(("avahi-daemon",pid=565,fd=12))   
+udp   UNCONN 0      0                  *:34834            *:*    users:(("avahi-daemon",pid=565,fd=15))   
+udp   UNCONN 0      0                  *:5353             *:*    users:(("avahi-daemon",pid=565,fd=13))   
+tcp   LISTEN 0      128          0.0.0.0:22         0.0.0.0:*    users:(("sshd",pid=991,fd=6))            
+tcp   LISTEN 0      128        127.0.0.1:6010       0.0.0.0:*    users:(("sshd-session",pid=122711,fd=11))
+tcp   LISTEN 0      4096         0.0.0.0:8080       0.0.0.0:*    users:(("docker-proxy",pid=100415,fd=4)) 
+tcp   LISTEN 0      4096         0.0.0.0:9090       0.0.0.0:*    users:(("docker-proxy",pid=90569,fd=4))  
+tcp   LISTEN 0      4096         0.0.0.0:3000       0.0.0.0:*    users:(("docker-proxy",pid=1356,fd=4))   
+tcp   LISTEN 0      4096       127.0.0.1:34429      0.0.0.0:*    users:(("containerd",pid=990,fd=9))      
+tcp   LISTEN 0      128            [::1]:6010          [::]:*    users:(("sshd-session",pid=122711,fd=10))
+tcp   LISTEN 0      128             [::]:22            [::]:*    users:(("sshd",pid=991,fd=7))            
+tcp   LISTEN 0      4096            [::]:8080          [::]:*    users:(("docker-proxy",pid=100422,fd=4)) 
+tcp   LISTEN 0      4096               *:9100             *:*    users:(("prometheus-node",pid=572,fd=3)) 
+tcp   LISTEN 0      4096            [::]:9090          [::]:*    users:(("docker-proxy",pid=90578,fd=4))  
+tcp   LISTEN 0      4096            [::]:3000          [::]:*    users:(("docker-proxy",pid=1364,fd=4))   

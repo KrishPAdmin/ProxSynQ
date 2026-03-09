@@ -1,0 +1,6 @@
+### ip_r
+
+default via 10.26.0.1 dev ens18 proto static 
+10.26.0.0/24 dev ens18 proto kernel scope link src 10.26.0.171 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+172.18.0.0/16 dev br-5928d0a86031 proto kernel scope link src 172.18.0.1 

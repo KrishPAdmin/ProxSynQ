@@ -1,0 +1,11 @@
+### df_h
+
+Filesystem                 Size  Used Avail Use% Mounted on
+tmpfs                      795M  1.3M  793M   1% /run
+/dev/sda2                   98G  9.1G   84G  10% /
+tmpfs                      3.9G     0  3.9G   0% /dev/shm
+tmpfs                      5.0M     0  5.0M   0% /run/lock
+overlay                     98G  9.1G   84G  10% /var/lib/docker/overlay2/c467607ebe9d7c41e4bc40ffba3b50325290c0369b252ded7e1605ea6fb24863/merged
+overlay                     98G  9.1G   84G  10% /var/lib/docker/overlay2/2d7de274836a08709e4507700e5aa87a6d384d041fdc8a23b1b70257071f5173/merged
+tmpfs                      795M   12K  795M   1% /run/user/1000
+10.26.0.172:/proxsyncqvol   98G   11G   84G  11% /srv/proxsyncq/shared

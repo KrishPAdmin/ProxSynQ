@@ -1,0 +1,6 @@
+### docker_images
+
+WARNING: This output is designed for human readability. For machine-readable output, please use --format.
+IMAGE                   ID             DISK USAGE   CONTENT SIZE   EXTRA
+postgres:16             47743fb02e4e        451MB             0B   U    
+rabbitmq:3-management   de912cbbf07f        252MB             0B   U    

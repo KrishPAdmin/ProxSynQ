@@ -1,0 +1,13 @@
+/etc/hostname
+/etc/hosts
+/etc/fstab
+/etc/ssh/sshd_config
+/etc/ssh/sshd_config.d/
+/etc/systemd/system/
+/usr/local/sbin/
+/home/krishadmin/.ssh/
+/home/krishadmin/.bashrc
+/home/krishadmin/.profile
+/home/krishadmin/proxsyncq-rpi/
+/etc/docker/
+/var/lib/docker/volumes/

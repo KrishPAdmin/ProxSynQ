@@ -1,0 +1,602 @@
+### docker_compose_logs_rpi
+
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:17:43.061361994Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:18:13.063590575Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:18:43.066173272Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:19:13.06101278Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:19:43.061722547Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:20:13.065494145Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:20:43.063313806Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T00:21:13.190721661Z level=info msg="Update check succeeded" duration=69.390613ms
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T00:21:13.19080829Z level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:21:13.301960811Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=cleanup t=2026-03-09T00:21:13.414168486Z level=info msg="Completed cleanup jobs" duration=348.939136ms
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:21:43.062212452Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:22:13.064483963Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:22:43.062157362Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=1 reason=getStats t=2026-03-09T00:23:06.163231424Z level=info msg="Building index using memory"
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=1 reason=getStats t=2026-03-09T00:23:06.17805643Z level=info msg="Finished building index" elapsed=14.716526ms listRV=1772775544416990
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=1 reason=getStats t=2026-03-09T00:23:06.178176744Z level=info msg="Storing index in cache" key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" expiration=2026-03-09T00:33:06.178170559Z
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=1 reason=getStats t=2026-03-09T00:23:06.187269968Z level=info msg="Building index using memory"
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=1 reason=getStats t=2026-03-09T00:23:06.197211422Z level=info msg="Finished building index" elapsed=9.846956ms listRV=1772775544237993
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=1 reason=getStats t=2026-03-09T00:23:06.197540215Z level=info msg="Storing index in cache" key="{Namespace:default Group:folder.grafana.app Resource:folders}" expiration=2026-03-09T00:33:06.197521196Z
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-03-09T00:23:06.206703456Z level=info msg="Building index using memory"
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-03-09T00:23:06.21216015Z level=info msg="Finished building index" elapsed=5.353084ms listRV=1
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-03-09T00:23:06.212441128Z level=info msg="Storing index in cache" key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" expiration=2026-03-09T00:33:06.212433128Z
+[2Kproxsyncq-grafana  | logger=infra.usagestats t=2026-03-09T00:23:06.215291001Z level=info msg="Usage stats are ready to report"
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:23:13.063885071Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:23:43.064445471Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:24:13.064558874Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:24:43.06460113Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:25:13.061516479Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:25:43.054324233Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:26:13.076115322Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:26:43.061975456Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:27:13.061100926Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:27:43.05671321Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:28:13.065401935Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:28:43.059752187Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:29:13.063655653Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:29:43.055249998Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:30:13.062066696Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:30:43.056938513Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T00:31:13.171842927Z level=info msg="Update check succeeded" duration=51.358671ms
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T00:31:13.171967611Z level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:31:13.390631579Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=cleanup t=2026-03-09T00:31:13.419625615Z level=info msg="Completed cleanup jobs" duration=355.429304ms
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:31:43.053683005Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:32:13.062775369Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:32:43.054709527Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=bleve-backend t=2026-03-09T00:33:10.050242155Z level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" storage=memory
+[2Kproxsyncq-grafana  | logger=bleve-backend t=2026-03-09T00:33:10.050506726Z level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:folder.grafana.app Resource:folders}" storage=memory
+[2Kproxsyncq-grafana  | logger=bleve-backend t=2026-03-09T00:33:10.050596373Z level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" storage=memory
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:33:13.059933004Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:33:43.055121499Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:34:13.061935385Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:34:43.056100168Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:35:13.062702993Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:35:43.067535946Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:36:13.06231006Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:36:43.063269457Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:37:13.070352013Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:37:43.062659413Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:38:13.069296455Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:38:43.075767209Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:39:13.064040547Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:39:43.062156852Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:40:13.062367426Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:40:43.064774326Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T00:41:13.177832471Z level=info msg="Update check succeeded" duration=56.394255ms
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T00:41:13.177931858Z level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:41:13.287503092Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=cleanup t=2026-03-09T00:41:13.313505644Z level=info msg="Completed cleanup jobs" duration=249.525818ms
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:41:43.095154499Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:42:13.064514456Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:42:43.061397738Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:43:13.064757585Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:43:43.059610184Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:44:13.066379156Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:44:43.064353036Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:45:13.061624671Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:45:43.062380029Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:46:13.06288501Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:46:43.067455193Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:47:13.060942523Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:47:43.061838054Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:48:13.061151952Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:48:43.060904477Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:49:13.062677417Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:49:43.061990692Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:50:13.060862021Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:50:43.057365426Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T00:51:13.174990895Z level=info msg="Update check succeeded" duration=53.994181ms
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T00:51:13.175086894Z level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:51:13.209128724Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=cleanup t=2026-03-09T00:51:13.26302261Z level=info msg="Completed cleanup jobs" duration=198.322271ms
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:51:43.060226994Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:52:13.062574442Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:52:43.069680295Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=1 reason=getStats t=2026-03-09T00:53:06.144552896Z level=info msg="Building index using memory"
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=1 reason=getStats t=2026-03-09T00:53:06.155254489Z level=info msg="Finished building index" elapsed=10.622964ms listRV=1772775544416990
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=1 reason=getStats t=2026-03-09T00:53:06.155367006Z level=info msg="Storing index in cache" key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" expiration=2026-03-09T01:03:06.155362321Z
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=1 reason=getStats t=2026-03-09T00:53:06.162481124Z level=info msg="Building index using memory"
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=1 reason=getStats t=2026-03-09T00:53:06.170399417Z level=info msg="Finished building index" elapsed=7.838887ms listRV=1772775544237993
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=1 reason=getStats t=2026-03-09T00:53:06.170503786Z level=info msg="Storing index in cache" key="{Namespace:default Group:folder.grafana.app Resource:folders}" expiration=2026-03-09T01:03:06.170499138Z
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-03-09T00:53:06.177517034Z level=info msg="Building index using memory"
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-03-09T00:53:06.181411006Z level=info msg="Finished building index" elapsed=3.818473ms listRV=1
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-03-09T00:53:06.181493023Z level=info msg="Storing index in cache" key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" expiration=2026-03-09T01:03:06.181489171Z
+[2Kproxsyncq-grafana  | logger=infra.usagestats t=2026-03-09T00:53:06.183509702Z level=info msg="Usage stats are ready to report"
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:53:13.060021957Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:53:43.057357839Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:54:13.060586614Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:54:43.057488646Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:55:13.063366149Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:55:43.063245093Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:56:13.061785523Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:56:43.064659546Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:57:13.064646184Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:57:43.072193356Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:58:13.061791694Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:58:43.061782065Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:59:13.071601647Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T00:59:43.062563132Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:00:13.062350001Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:00:43.061824021Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:01:13.164746933Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T01:01:13.175613708Z level=info msg="Update check succeeded" duration=54.408985ms
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T01:01:13.175727003Z level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+[2Kproxsyncq-grafana  | logger=cleanup t=2026-03-09T01:01:13.306638Z level=info msg="Completed cleanup jobs" duration=241.878626ms
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:01:43.059135839Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:02:13.061128928Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:02:43.059358582Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=bleve-backend t=2026-03-09T01:03:10.050301249Z level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" storage=memory
+[2Kproxsyncq-grafana  | logger=bleve-backend t=2026-03-09T01:03:10.050560857Z level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" storage=memory
+[2Kproxsyncq-grafana  | logger=bleve-backend t=2026-03-09T01:03:10.050642449Z level=info msg="index evicted from cache" reason=expired key="{Namespace:default Group:folder.grafana.app Resource:folders}" storage=memory
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:03:13.064893465Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:03:43.062326585Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:04:13.058480102Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:04:43.059061118Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:05:13.06257669Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:05:43.05967627Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:06:13.069146834Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:06:43.062555326Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:07:13.05904231Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:07:43.061934971Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:08:13.060275149Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:08:43.068459076Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:09:13.069387781Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:09:43.061819592Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:10:13.065199814Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:10:43.064825515Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T01:11:13.172313852Z level=info msg="Update check succeeded" duration=51.73472ms
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T01:11:13.172412777Z level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:11:13.176935574Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=cleanup t=2026-03-09T01:11:13.226548727Z level=info msg="Completed cleanup jobs" duration=157.37478ms
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:11:43.062031158Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:12:13.06947676Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:12:43.063940701Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:13:13.063160896Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:13:43.061893798Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:14:13.059896467Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:14:43.067193728Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:15:13.059657652Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:15:43.062032124Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:16:13.062507808Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:16:43.063401861Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:17:13.07561678Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:17:43.061815264Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:18:13.060235143Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:18:43.06227941Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:19:13.064815086Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:19:43.060689963Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:20:13.056964103Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:20:43.060220982Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T01:21:13.175121654Z level=info msg="Update check succeeded" duration=54.222374ms
+[2Kproxsyncq-grafana  | logger=plugins.update.checker t=2026-03-09T01:21:13.175246301Z level=info msg="flag evaluation succeeded" flag="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}" details="{Value:false EvaluationDetails:{FlagKey:pluginsAutoUpdate FlagType:bool ResolutionDetail:{Variant:default Reason:STATIC ErrorCode: ErrorMessage: FlagMetadata:map[]}}}"
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:21:13.34461623Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=cleanup t=2026-03-09T01:21:13.450139291Z level=info msg="Completed cleanup jobs" duration=385.72832ms
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:21:43.060875917Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:22:13.056558679Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:22:43.064905602Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=1 reason=getStats t=2026-03-09T01:23:06.14559481Z level=info msg="Building index using memory"
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=1 reason=getStats t=2026-03-09T01:23:06.156775665Z level=info msg="Finished building index" elapsed=11.077746ms listRV=1772775544416990
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=dashboard.grafana.app resource=dashboards size=1 reason=getStats t=2026-03-09T01:23:06.15691857Z level=info msg="Storing index in cache" key="{Namespace:default Group:dashboard.grafana.app Resource:dashboards}" expiration=2026-03-09T01:33:06.156913071Z
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=1 reason=getStats t=2026-03-09T01:23:06.164597915Z level=info msg="Building index using memory"
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=1 reason=getStats t=2026-03-09T01:23:06.172657015Z level=info msg="Finished building index" elapsed=7.954064ms listRV=1772775544237993
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=folder.grafana.app resource=folders size=1 reason=getStats t=2026-03-09T01:23:06.172796105Z level=info msg="Storing index in cache" key="{Namespace:default Group:folder.grafana.app Resource:folders}" expiration=2026-03-09T01:33:06.17279168Z
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-03-09T01:23:06.180282805Z level=info msg="Building index using memory"
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-03-09T01:23:06.184422399Z level=info msg="Finished building index" elapsed=4.047948ms listRV=1
+[2Kproxsyncq-grafana  | logger=bleve-backend namespace=default group=provisioning.grafana.app resource=repositories size=0 reason=getStats t=2026-03-09T01:23:06.184527657Z level=info msg="Storing index in cache" key="{Namespace:default Group:provisioning.grafana.app Resource:repositories}" expiration=2026-03-09T01:33:06.184522898Z
+[2Kproxsyncq-grafana  | logger=infra.usagestats t=2026-03-09T01:23:06.186835553Z level=info msg="Usage stats are ready to report"
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:23:13.078621377Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:23:43.067542287Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:24:13.056354821Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:24:43.066285372Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:25:13.064340275Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:25:43.062145181Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:26:13.079145423Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:26:43.062102824Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:27:13.079335357Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:27:43.061913564Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:28:13.061821654Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-grafana  | logger=dashboard-service t=2026-03-09T01:28:43.061859921Z level=info msg="No last resource version found, starting from scratch" orgID=1
+[2Kproxsyncq-control-ui  | INFO:     Started server process [1]
+[2Kproxsyncq-control-ui  | INFO:     Waiting for application startup.
+[2Kproxsyncq-control-ui  | INFO:     Application startup complete.
+[2Kproxsyncq-control-ui  | INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:51454 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:60480 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:59994 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:56552 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:55690 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:44054 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:51348 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:56598 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:54040 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:52508 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:56568 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:37192 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:57810 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:41580 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:42550 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:40178 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:49556 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:48148 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:33116 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:37574 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:43920 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:45814 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:51352 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:39068 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:51618 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:48002 - "GET /?status=ok&message=submitted:5,targets:10.26.0.171x1,10.26.0.172x2,10.26.0.173x2 HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:48002 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:48002 - "GET /logout HTTP/1.1" 303 See Other
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:48002 - "GET /login HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:48002 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:47990 - "POST /login HTTP/1.1" 303 See Other
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:47990 - "GET / HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:43658 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:41682 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:54520 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:50250 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:44472 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:53284 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:33030 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:59034 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:58512 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:41468 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:41468 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:55662 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:51550 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:37754 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:51414 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:41364 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:50652 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:40720 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:60612 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:45062 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:50632 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:40406 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:52968 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:35434 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:58472 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:45472 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:52190 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:59092 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:57892 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:36974 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:55904 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:35158 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:47810 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:38832 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:36184 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:60050 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:46172 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:50864 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:54342 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:41976 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:52374 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:43180 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:46114 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:44740 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:58884 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:48172 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:60446 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:43842 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:43144 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:50952 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:51980 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:42604 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:48400 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:52778 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:46630 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:56746 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:59078 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:35006 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:43980 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:39552 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:50224 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:47224 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:47660 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:49170 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:51144 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:39658 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:56002 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:58920 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:43046 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:51376 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:60884 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:46156 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:41286 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:59470 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:55314 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:42764 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:57474 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:52562 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:53268 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:54086 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:36122 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:54582 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:45274 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:49578 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:37266 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:46696 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:33622 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:53878 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:56912 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:59574 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:49088 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:49772 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:36050 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:60042 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:35604 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:56452 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:42744 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:34996 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:56698 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:45458 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:41010 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:55722 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:33176 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:35714 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:42406 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:51104 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:38794 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:38672 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:60328 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:44798 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:51706 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:53300 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:57778 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:33664 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:36392 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:49374 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:52268 - "GET /api/dashboard HTTP/1.1" 403 Forbidden
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:57480 - "GET /api/dashboard HTTP/1.1" 403 Forbidden
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:40764 - "GET /api/dashboard HTTP/1.1" 403 Forbidden
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:40764 - "GET / HTTP/1.1" 303 See Other
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:40764 - "GET /login HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:40766 - "POST /login HTTP/1.1" 303 See Other
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:40766 - "GET / HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:40766 - "GET / HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:55162 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:54080 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:55296 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:57824 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:38670 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:35434 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:53870 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:60010 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:46538 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:39934 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:32920 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:38746 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:53652 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:39056 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:37798 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:48178 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:42136 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:49466 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:48102 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:33142 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:58530 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:52376 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:53070 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:46550 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:56252 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:40450 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:49132 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:33476 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:46580 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:54720 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:49704 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:39142 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:54586 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:33914 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:47038 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:59366 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:60688 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:43418 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:46484 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-control-ui  | INFO:     10.26.0.22:38402 - "GET /api/dashboard HTTP/1.1" 200 OK
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:41.629Z level=INFO source=manager.go:232 msg="Rule manager stopped" component="rule manager"
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:41.629Z level=INFO source=main.go:1213 msg="Stopping scrape manager..."
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:41.629Z level=INFO source=main.go:1158 msg="Scrape discovery manager stopped"
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:41.629Z level=INFO source=main.go:1172 msg="Notify discovery manager stopped"
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:41.634Z level=INFO source=main.go:1205 msg="Scrape manager stopped"
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:41.736Z level=INFO source=manager.go:321 msg="Stopping notification manager..." component=notifier
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:41.737Z level=INFO source=main.go:1488 msg="Notifier manager stopped"
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:41.737Z level=INFO source=main.go:1502 msg="See you next time!"
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:42.744Z level=INFO source=main.go:1611 msg="updated GOGC" old=100 new=75
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:42.745Z level=INFO source=main.go:723 msg="Leaving GOMAXPROCS=4: CPU quota undefined" component=automaxprocs
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:42.745Z level=INFO source=memlimit.go:198 msg="GOMEMLIMIT is updated" component=automemlimit package=github.com/KimMachineGun/automemlimit/memlimit GOMEMLIMIT=1741706035 previous=9223372036854775807
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:42.746Z level=INFO source=main.go:771 msg="No time or size retention was set so using the default time retention" duration=15d
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:42.746Z level=INFO source=main.go:822 msg="Starting Prometheus Server" mode=server version="(version=3.10.0, branch=HEAD, revision=54e010926b0a270cadb22be1113ad45fe9bcb90a)"
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:42.746Z level=INFO source=main.go:827 msg="operational information" build_context="(go=go1.26.0, platform=linux/arm64, user=root@2ee2be8e6652, date=20260225-21:17:03, tags=netgo,builtinassets)" host_details="(Linux 6.12.62+rpt-rpi-v8 #1 SMP PREEMPT Debian 1:6.12.62-1+rpt1 (2025-12-18) aarch64 9feb764a4d03 (none))" fd_limits="(soft=1073741816, hard=1073741816)" vm_limits="(soft=unlimited, hard=unlimited)"
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.260Z level=INFO source=web.go:696 msg="Start listening for connections" component=web address=0.0.0.0:9090
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.272Z level=INFO source=main.go:1350 msg="Starting TSDB ..."
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.273Z level=INFO source=repair.go:54 msg="Found healthy block" component=tsdb mint=1772775513179 maxt=1772798400000 ulid=01KK21F21SW84Y5TS3S2N9JF6M
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.273Z level=INFO source=repair.go:54 msg="Found healthy block" component=tsdb mint=1772820001001 maxt=1772827200000 ulid=01KK2F6F3DY6VYK618YB06CCXP
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.273Z level=INFO source=repair.go:54 msg="Found healthy block" component=tsdb mint=1772827201001 maxt=1772834400000 ulid=01KK2P27BG7S8DYAB8FW7Q81JM
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.273Z level=INFO source=repair.go:54 msg="Found healthy block" component=tsdb mint=1772798403178 maxt=1772820000000 ulid=01KK2P27PGKJX3T2EE5X752D5M
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.273Z level=INFO source=repair.go:54 msg="Found healthy block" component=tsdb mint=1772834401003 maxt=1772841600000 ulid=01KK2WXYKHYXHTT45AYHQG0V69
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.273Z level=INFO source=repair.go:54 msg="Found healthy block" component=tsdb mint=1772841600000 maxt=1772848800000 ulid=01KK33SM6AJAMGM47N4G9BMX96
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.281Z level=INFO source=tls_config.go:354 msg="Listening on" component=web address=[::]:9090
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.283Z level=INFO source=tls_config.go:357 msg="TLS is disabled." component=web http2=false address=[::]:9090
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.297Z level=INFO source=head.go:680 msg="Replaying on-disk memory mappable chunks if any" component=tsdb
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.311Z level=INFO source=head.go:766 msg="On-disk memory mappable chunks replay completed" component=tsdb duration=13.941576ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.311Z level=INFO source=head.go:774 msg="Replaying WAL, this may take a while" component=tsdb
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.351Z level=INFO source=head.go:811 msg="WAL checkpoint loaded" component=tsdb
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.703Z level=INFO source=head.go:847 msg="WAL segment loaded" component=tsdb segment=12 maxSegment=16 duration=351.420881ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.814Z level=INFO source=head.go:847 msg="WAL segment loaded" component=tsdb segment=13 maxSegment=16 duration=111.319112ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:43.892Z level=INFO source=head.go:847 msg="WAL segment loaded" component=tsdb segment=14 maxSegment=16 duration=77.889188ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:44.590Z level=INFO source=head.go:847 msg="WAL segment loaded" component=tsdb segment=15 maxSegment=16 duration=698.075352ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:44.592Z level=INFO source=head.go:847 msg="WAL segment loaded" component=tsdb segment=16 maxSegment=16 duration=1.006429ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:44.592Z level=INFO source=head.go:884 msg="WAL replay completed" component=tsdb checkpoint_replay_duration=39.748295ms wal_replay_duration=1.240361806s wbl_replay_duration=204ns chunk_snapshot_load_duration=0s mmap_chunk_replay_duration=13.941576ms total_replay_duration=1.294203565s
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:44.605Z level=INFO source=main.go:1371 msg="filesystem information" fs_type=EXT4_SUPER_MAGIC
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:44.606Z level=INFO source=main.go:1374 msg="TSDB started"
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:44.606Z level=INFO source=main.go:1564 msg="Loading configuration file" filename=/etc/prometheus/prometheus.yml
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:44.607Z level=INFO source=main.go:1604 msg="Completed loading of configuration file" db_storage=3.5µs remote_storage=3.315µs web_handler=1.278µs query_engine=2.092µs scrape=530.863µs scrape_sd=116.22µs notify=4.037µs notify_sd=2.148µs rules=4.741µs tracing=15.407µs filename=/etc/prometheus/prometheus.yml totalDuration=1.391832ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:44.607Z level=INFO source=main.go:1335 msg="Server is ready to receive web requests."
+[2Kproxsyncq-prometheus  | time=2026-03-07T03:52:44.607Z level=INFO source=manager.go:202 msg="Starting rule manager..." component="rule manager"
+[2Kproxsyncq-prometheus  | time=2026-03-07T05:00:00.370Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772848800000 maxt=1772856000000 ulid=01KK3ANBFJ4Y7F2KHNYQASVJDP
+[2Kproxsyncq-prometheus  | time=2026-03-07T05:00:00.836Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772848800000 maxt=1772856000000 ulid=01KK3ANBFJ4Y7F2KHNYQASVJDP duration=465.687829ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-07T05:00:00.838Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-07T05:00:00.861Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=23.00143ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T05:00:00.863Z level=INFO source=checkpoint.go:99 msg="Creating checkpoint" component=tsdb from_segment=12 to_segment=14 mint=1772856000000
+[2Kproxsyncq-prometheus  | time=2026-03-07T05:00:01.199Z level=INFO source=head.go:1418 msg="WAL checkpoint complete" component=tsdb first=12 last=14 duration=335.879259ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T05:00:01.939Z level=INFO source=compact.go:562 msg="compact blocks" component=tsdb count=3 mint=1772820001001 maxt=1772841600000 ulid=01KK3ANC9FDS966WDN8283ASSW sources="[01KK2F6F3DY6VYK618YB06CCXP 01KK2P27BG7S8DYAB8FW7Q81JM 01KK2WXYKHYXHTT45AYHQG0V69]" duration=739.608131ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T05:00:01.944Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK2P27BG7S8DYAB8FW7Q81JM
+[2Kproxsyncq-prometheus  | time=2026-03-07T05:00:01.951Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK2WXYKHYXHTT45AYHQG0V69
+[2Kproxsyncq-prometheus  | time=2026-03-07T05:00:01.958Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK2F6F3DY6VYK618YB06CCXP
+[2Kproxsyncq-prometheus  | time=2026-03-07T07:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772856000327 maxt=1772863200000 ulid=01KK3HH41J2H3Y11SKSTYBPBPA
+[2Kproxsyncq-prometheus  | time=2026-03-07T07:00:02.471Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772856000327 maxt=1772863200000 ulid=01KK3HH41J2H3Y11SKSTYBPBPA duration=756.591817ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-07T07:00:02.474Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-07T07:00:02.502Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=28.268322ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T09:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772863200327 maxt=1772870400000 ulid=01KK3RCV9JW4QVVW7EQ6YBWCA6
+[2Kproxsyncq-prometheus  | time=2026-03-07T09:00:02.321Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772863200327 maxt=1772870400000 ulid=01KK3RCV9JW4QVVW7EQ6YBWCA6 duration=607.167975ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-07T09:00:02.323Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-07T09:00:02.338Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=14.89197ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T09:00:02.340Z level=INFO source=checkpoint.go:99 msg="Creating checkpoint" component=tsdb from_segment=15 to_segment=16 mint=1772870400000
+[2Kproxsyncq-prometheus  | time=2026-03-07T09:00:02.884Z level=INFO source=head.go:1418 msg="WAL checkpoint complete" component=tsdb first=15 last=16 duration=544.418994ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T09:00:03.920Z level=INFO source=compact.go:562 msg="compact blocks" component=tsdb count=3 mint=1772841600000 maxt=1772863200000 ulid=01KK3RCWE5MHMWRQF63H698WMD sources="[01KK33SM6AJAMGM47N4G9BMX96 01KK3ANBFJ4Y7F2KHNYQASVJDP 01KK3HH41J2H3Y11SKSTYBPBPA]" duration=1.035128101s
+[2Kproxsyncq-prometheus  | time=2026-03-07T09:00:03.927Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK3HH41J2H3Y11SKSTYBPBPA
+[2Kproxsyncq-prometheus  | time=2026-03-07T09:00:03.934Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK33SM6AJAMGM47N4G9BMX96
+[2Kproxsyncq-prometheus  | time=2026-03-07T09:00:03.941Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK3ANBFJ4Y7F2KHNYQASVJDP
+[2Kproxsyncq-prometheus  | time=2026-03-07T11:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772870400327 maxt=1772877600000 ulid=01KK3Z8JHJ2Z1B7KNWFKV407P0
+[2Kproxsyncq-prometheus  | time=2026-03-07T11:00:02.472Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772870400327 maxt=1772877600000 ulid=01KK3Z8JHJ2Z1B7KNWFKV407P0 duration=757.742391ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-07T11:00:02.474Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-07T11:00:02.490Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=16.399493ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T11:00:04.154Z level=INFO source=compact.go:562 msg="compact blocks" component=tsdb count=3 mint=1772798403178 maxt=1772863200000 ulid=01KK3Z8K9YYDMTNAYQK5V53G6P sources="[01KK2P27PGKJX3T2EE5X752D5M 01KK3ANC9FDS966WDN8283ASSW 01KK3RCWE5MHMWRQF63H698WMD]" duration=1.660032864s
+[2Kproxsyncq-prometheus  | time=2026-03-07T11:00:04.163Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK2P27PGKJX3T2EE5X752D5M
+[2Kproxsyncq-prometheus  | time=2026-03-07T11:00:04.171Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK3ANC9FDS966WDN8283ASSW
+[2Kproxsyncq-prometheus  | time=2026-03-07T11:00:04.181Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK3RCWE5MHMWRQF63H698WMD
+[2Kproxsyncq-prometheus  | time=2026-03-07T13:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772877600327 maxt=1772884800000 ulid=01KK4649SJ7RCRKA1Z1QP1GAY2
+[2Kproxsyncq-prometheus  | time=2026-03-07T13:00:02.463Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772877600327 maxt=1772884800000 ulid=01KK4649SJ7RCRKA1Z1QP1GAY2 duration=748.68699ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-07T13:00:02.465Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-07T13:00:02.490Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=24.849169ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T13:00:02.495Z level=INFO source=checkpoint.go:99 msg="Creating checkpoint" component=tsdb from_segment=17 to_segment=18 mint=1772884800000
+[2Kproxsyncq-prometheus  | time=2026-03-07T13:00:03.356Z level=INFO source=head.go:1418 msg="WAL checkpoint complete" component=tsdb first=17 last=18 duration=861.15849ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T15:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772884800327 maxt=1772892000000 ulid=01KK4D011J69NKB6WQG50WM98W
+[2Kproxsyncq-prometheus  | time=2026-03-07T15:00:02.311Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772884800327 maxt=1772892000000 ulid=01KK4D011J69NKB6WQG50WM98W duration=596.616932ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-07T15:00:02.312Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-07T15:00:02.327Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=14.552225ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T17:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772892000327 maxt=1772899200000 ulid=01KK4KVR9JZ6C6TZB2T46SH4MN
+[2Kproxsyncq-prometheus  | time=2026-03-07T17:00:02.377Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772892000327 maxt=1772899200000 ulid=01KK4KVR9JZ6C6TZB2T46SH4MN duration=662.789017ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-07T17:00:02.379Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-07T17:00:02.395Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=16.190384ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T17:00:02.398Z level=INFO source=checkpoint.go:99 msg="Creating checkpoint" component=tsdb from_segment=19 to_segment=20 mint=1772899200000
+[2Kproxsyncq-prometheus  | time=2026-03-07T17:00:03.180Z level=INFO source=head.go:1418 msg="WAL checkpoint complete" component=tsdb first=19 last=20 duration=782.270188ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T17:00:04.434Z level=INFO source=compact.go:562 msg="compact blocks" component=tsdb count=3 mint=1772863200327 maxt=1772884800000 ulid=01KK4KVSQCNDDMJ34G6Z9SM2QT sources="[01KK3RCV9JW4QVVW7EQ6YBWCA6 01KK3Z8JHJ2Z1B7KNWFKV407P0 01KK4649SJ7RCRKA1Z1QP1GAY2]" duration=1.253548007s
+[2Kproxsyncq-prometheus  | time=2026-03-07T17:00:04.440Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK3Z8JHJ2Z1B7KNWFKV407P0
+[2Kproxsyncq-prometheus  | time=2026-03-07T17:00:04.449Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK4649SJ7RCRKA1Z1QP1GAY2
+[2Kproxsyncq-prometheus  | time=2026-03-07T17:00:04.455Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK3RCV9JW4QVVW7EQ6YBWCA6
+[2Kproxsyncq-prometheus  | time=2026-03-07T19:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772899200327 maxt=1772906400000 ulid=01KK4TQFHJECCQQJ65JJKE7EW7
+[2Kproxsyncq-prometheus  | time=2026-03-07T19:00:02.509Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772899200327 maxt=1772906400000 ulid=01KK4TQFHJECCQQJ65JJKE7EW7 duration=794.855757ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-07T19:00:02.512Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-07T19:00:02.536Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=23.979369ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T21:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772906400327 maxt=1772913600000 ulid=01KK51K6SJ5H2696AS0KTTCGZ8
+[2Kproxsyncq-prometheus  | time=2026-03-07T21:00:02.440Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772906400327 maxt=1772913600000 ulid=01KK51K6SJ5H2696AS0KTTCGZ8 duration=726.054489ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-07T21:00:02.442Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-07T21:00:02.470Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=27.303521ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T21:00:02.475Z level=INFO source=checkpoint.go:99 msg="Creating checkpoint" component=tsdb from_segment=21 to_segment=22 mint=1772913600000
+[2Kproxsyncq-prometheus  | time=2026-03-07T21:00:03.334Z level=INFO source=head.go:1418 msg="WAL checkpoint complete" component=tsdb first=21 last=22 duration=859.149471ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T23:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772913600327 maxt=1772920800000 ulid=01KK58EY1J679T7NX7TYTQF9RW
+[2Kproxsyncq-prometheus  | time=2026-03-07T23:00:02.475Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772913600327 maxt=1772920800000 ulid=01KK58EY1J679T7NX7TYTQF9RW duration=760.868573ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-07T23:00:02.478Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-07T23:00:02.501Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=22.978988ms
+[2Kproxsyncq-prometheus  | time=2026-03-07T23:00:03.770Z level=INFO source=compact.go:562 msg="compact blocks" component=tsdb count=3 mint=1772884800327 maxt=1772906400000 ulid=01KK58EYTB4KRV1PCXM007ZRNW sources="[01KK4D011J69NKB6WQG50WM98W 01KK4KVR9JZ6C6TZB2T46SH4MN 01KK4TQFHJECCQQJ65JJKE7EW7]" duration=1.263275011s
+[2Kproxsyncq-prometheus  | time=2026-03-07T23:00:03.778Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK4D011J69NKB6WQG50WM98W
+[2Kproxsyncq-prometheus  | time=2026-03-07T23:00:03.787Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK4KVR9JZ6C6TZB2T46SH4MN
+[2Kproxsyncq-prometheus  | time=2026-03-07T23:00:03.796Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK4TQFHJECCQQJ65JJKE7EW7
+[2Kproxsyncq-prometheus  | time=2026-03-08T01:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772920800327 maxt=1772928000000 ulid=01KK5FAN9JRPM1FWGX6E25JWGH
+[2Kproxsyncq-prometheus  | time=2026-03-08T01:00:02.322Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772920800327 maxt=1772928000000 ulid=01KK5FAN9JRPM1FWGX6E25JWGH duration=607.687499ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-08T01:00:02.324Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-08T01:00:02.339Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=15.049336ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T01:00:02.341Z level=INFO source=checkpoint.go:99 msg="Creating checkpoint" component=tsdb from_segment=23 to_segment=24 mint=1772928000000
+[2Kproxsyncq-prometheus  | time=2026-03-08T01:00:03.124Z level=INFO source=head.go:1418 msg="WAL checkpoint complete" component=tsdb first=23 last=24 duration=782.630062ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T03:00:01.716Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772928000327 maxt=1772935200000 ulid=01KK5P6CHK0KMC6KEDAHD11ESH
+[2Kproxsyncq-prometheus  | time=2026-03-08T03:00:02.318Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772928000327 maxt=1772935200000 ulid=01KK5P6CHK0KMC6KEDAHD11ESH duration=602.616648ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-08T03:00:02.320Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-08T03:00:02.335Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=15.091948ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772935200327 maxt=1772942400000 ulid=01KK5X23SJWM2QB96H87CFAKNM
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:02.302Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772935200327 maxt=1772942400000 ulid=01KK5X23SJWM2QB96H87CFAKNM duration=587.154919ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:02.303Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:02.318Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=14.723389ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:02.321Z level=INFO source=checkpoint.go:99 msg="Creating checkpoint" component=tsdb from_segment=25 to_segment=26 mint=1772942400000
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:03.112Z level=INFO source=head.go:1418 msg="WAL checkpoint complete" component=tsdb first=25 last=26 duration=791.616805ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:04.388Z level=INFO source=compact.go:562 msg="compact blocks" component=tsdb count=3 mint=1772906400327 maxt=1772928000000 ulid=01KK5X2559JT8A0TYW2YC5E2K4 sources="[01KK51K6SJ5H2696AS0KTTCGZ8 01KK58EY1J679T7NX7TYTQF9RW 01KK5FAN9JRPM1FWGX6E25JWGH]" duration=1.275230449s
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:04.394Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK58EY1J679T7NX7TYTQF9RW
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:04.403Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK51K6SJ5H2696AS0KTTCGZ8
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:04.412Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK5FAN9JRPM1FWGX6E25JWGH
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:07.351Z level=INFO source=compact.go:562 msg="compact blocks" component=tsdb count=3 mint=1772863200327 maxt=1772928000000 ulid=01KK5X26DXN9DECSZ98S5EHSYM sources="[01KK4KVSQCNDDMJ34G6Z9SM2QT 01KK58EYTB4KRV1PCXM007ZRNW 01KK5X2559JT8A0TYW2YC5E2K4]" duration=2.938489508s
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:07.376Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK4KVSQCNDDMJ34G6Z9SM2QT
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:07.398Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK58EYTB4KRV1PCXM007ZRNW
+[2Kproxsyncq-prometheus  | time=2026-03-08T05:00:07.418Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK5X2559JT8A0TYW2YC5E2K4
+[2Kproxsyncq-prometheus  | time=2026-03-08T07:00:01.715Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772942400327 maxt=1772949600000 ulid=01KK63XV1KX8WW73BDCJG88ZAE
+[2Kproxsyncq-prometheus  | time=2026-03-08T07:00:02.331Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772942400327 maxt=1772949600000 ulid=01KK63XV1KX8WW73BDCJG88ZAE duration=615.867582ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-08T07:00:02.332Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-08T07:00:02.348Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=15.592917ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T09:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772949600327 maxt=1772956800000 ulid=01KK6ASJ9JTD8FQ00J66NSTN5R
+[2Kproxsyncq-prometheus  | time=2026-03-08T09:00:02.398Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772949600327 maxt=1772956800000 ulid=01KK6ASJ9JTD8FQ00J66NSTN5R duration=683.184352ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-08T09:00:02.399Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-08T09:00:02.414Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=15.141208ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T09:00:02.417Z level=INFO source=checkpoint.go:99 msg="Creating checkpoint" component=tsdb from_segment=27 to_segment=28 mint=1772956800000
+[2Kproxsyncq-prometheus  | time=2026-03-08T09:00:03.199Z level=INFO source=head.go:1418 msg="WAL checkpoint complete" component=tsdb first=27 last=28 duration=782.461272ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T11:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772956800327 maxt=1772964000000 ulid=01KK6HN9HJBK0HHJBX20VCHZPQ
+[2Kproxsyncq-prometheus  | time=2026-03-08T11:00:02.316Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772956800327 maxt=1772964000000 ulid=01KK6HN9HJBK0HHJBX20VCHZPQ duration=601.765352ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-08T11:00:02.318Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-08T11:00:02.334Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=16.199212ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T11:00:03.591Z level=INFO source=compact.go:562 msg="compact blocks" component=tsdb count=3 mint=1772928000327 maxt=1772949600000 ulid=01KK6HNA52SN0A1GVWSDB3EMH2 sources="[01KK5P6CHK0KMC6KEDAHD11ESH 01KK5X23SJWM2QB96H87CFAKNM 01KK63XV1KX8WW73BDCJG88ZAE]" duration=1.253977727s
+[2Kproxsyncq-prometheus  | time=2026-03-08T11:00:03.597Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK5P6CHK0KMC6KEDAHD11ESH
+[2Kproxsyncq-prometheus  | time=2026-03-08T11:00:03.606Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK5X23SJWM2QB96H87CFAKNM
+[2Kproxsyncq-prometheus  | time=2026-03-08T11:00:03.614Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK63XV1KX8WW73BDCJG88ZAE
+[2Kproxsyncq-prometheus  | time=2026-03-08T13:00:01.715Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772964000327 maxt=1772971200000 ulid=01KK6RH0SKNEZYFATR1Q09G4EY
+[2Kproxsyncq-prometheus  | time=2026-03-08T13:00:02.329Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772964000327 maxt=1772971200000 ulid=01KK6RH0SKNEZYFATR1Q09G4EY duration=614.751024ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-08T13:00:02.331Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-08T13:00:02.346Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=15.041663ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T13:00:02.349Z level=INFO source=checkpoint.go:99 msg="Creating checkpoint" component=tsdb from_segment=29 to_segment=30 mint=1772971200000
+[2Kproxsyncq-prometheus  | time=2026-03-08T13:00:03.146Z level=INFO source=head.go:1418 msg="WAL checkpoint complete" component=tsdb first=29 last=30 duration=797.980761ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T15:00:01.714Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772971200327 maxt=1772978400000 ulid=01KK6ZCR1J2GY4PM0KR7MAQCCF
+[2Kproxsyncq-prometheus  | time=2026-03-08T15:00:02.338Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772971200327 maxt=1772978400000 ulid=01KK6ZCR1J2GY4PM0KR7MAQCCF duration=623.368734ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-08T15:00:02.340Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-08T15:00:02.355Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=15.080517ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T17:00:01.715Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772978400327 maxt=1772985600000 ulid=01KK768F9KPB217355B7SD7MXP
+[2Kproxsyncq-prometheus  | time=2026-03-08T17:00:02.374Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772978400327 maxt=1772985600000 ulid=01KK768F9KPB217355B7SD7MXP duration=658.994564ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-08T17:00:02.375Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-08T17:00:02.390Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=14.747705ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T17:00:02.393Z level=INFO source=checkpoint.go:99 msg="Creating checkpoint" component=tsdb from_segment=31 to_segment=32 mint=1772985600000
+[2Kproxsyncq-prometheus  | time=2026-03-08T17:00:03.183Z level=INFO source=head.go:1418 msg="WAL checkpoint complete" component=tsdb first=31 last=32 duration=790.430999ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T17:00:04.464Z level=INFO source=compact.go:562 msg="compact blocks" component=tsdb count=3 mint=1772949600327 maxt=1772971200000 ulid=01KK768GQGKH721ZD7WHSBZPAB sources="[01KK6ASJ9JTD8FQ00J66NSTN5R 01KK6HN9HJBK0HHJBX20VCHZPQ 01KK6RH0SKNEZYFATR1Q09G4EY]" duration=1.279386336s
+[2Kproxsyncq-prometheus  | time=2026-03-08T17:00:04.470Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK6ASJ9JTD8FQ00J66NSTN5R
+[2Kproxsyncq-prometheus  | time=2026-03-08T17:00:04.478Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK6HN9HJBK0HHJBX20VCHZPQ
+[2Kproxsyncq-prometheus  | time=2026-03-08T17:00:04.486Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK6RH0SKNEZYFATR1Q09G4EY
+[2Kproxsyncq-prometheus  | time=2026-03-08T19:00:01.715Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772985600327 maxt=1772992800000 ulid=01KK7D46HKK7WGSZF5XJ0GMSNY
+[2Kproxsyncq-prometheus  | time=2026-03-08T19:00:02.393Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772985600327 maxt=1772992800000 ulid=01KK7D46HKK7WGSZF5XJ0GMSNY duration=678.604235ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-08T19:00:02.395Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-08T19:00:02.411Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=15.696716ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T21:00:01.715Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1772992800327 maxt=1773000000000 ulid=01KK7KZXSJJ740NNC0Q0E9KYAV
+[2Kproxsyncq-prometheus  | time=2026-03-08T21:00:02.366Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1772992800327 maxt=1773000000000 ulid=01KK7KZXSJJ740NNC0Q0E9KYAV duration=651.236507ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-08T21:00:02.367Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-08T21:00:02.382Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=14.825078ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T21:00:02.385Z level=INFO source=checkpoint.go:99 msg="Creating checkpoint" component=tsdb from_segment=33 to_segment=34 mint=1773000000000
+[2Kproxsyncq-prometheus  | time=2026-03-08T21:00:03.175Z level=INFO source=head.go:1418 msg="WAL checkpoint complete" component=tsdb first=33 last=34 duration=790.01533ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T23:00:01.715Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1773000000327 maxt=1773007200000 ulid=01KK7TVN1K3DAG3ZKYTGP8J2H5
+[2Kproxsyncq-prometheus  | time=2026-03-08T23:00:02.420Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1773000000327 maxt=1773007200000 ulid=01KK7TVN1K3DAG3ZKYTGP8J2H5 duration=704.61559ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-08T23:00:02.422Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-08T23:00:02.437Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=14.811316ms
+[2Kproxsyncq-prometheus  | time=2026-03-08T23:00:03.777Z level=INFO source=compact.go:562 msg="compact blocks" component=tsdb count=3 mint=1772971200327 maxt=1772992800000 ulid=01KK7TVNR8R1ERH7TMTDAWBJJ3 sources="[01KK6ZCR1J2GY4PM0KR7MAQCCF 01KK768F9KPB217355B7SD7MXP 01KK7D46HKK7WGSZF5XJ0GMSNY]" duration=1.336615394s
+[2Kproxsyncq-prometheus  | time=2026-03-08T23:00:03.788Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK6ZCR1J2GY4PM0KR7MAQCCF
+[2Kproxsyncq-prometheus  | time=2026-03-08T23:00:03.808Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK768F9KPB217355B7SD7MXP
+[2Kproxsyncq-prometheus  | time=2026-03-08T23:00:03.817Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK7D46HKK7WGSZF5XJ0GMSNY
+[2Kproxsyncq-prometheus  | time=2026-03-08T23:00:06.676Z level=INFO source=compact.go:562 msg="compact blocks" component=tsdb count=3 mint=1772928000327 maxt=1772992800000 ulid=01KK7TVQ3AC84MXVMAXWFBG9NK sources="[01KK6HNA52SN0A1GVWSDB3EMH2 01KK768GQGKH721ZD7WHSBZPAB 01KK7TVNR8R1ERH7TMTDAWBJJ3]" duration=2.858269181s
+[2Kproxsyncq-prometheus  | time=2026-03-08T23:00:06.687Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK6HNA52SN0A1GVWSDB3EMH2
+[2Kproxsyncq-prometheus  | time=2026-03-08T23:00:06.697Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK7TVNR8R1ERH7TMTDAWBJJ3
+[2Kproxsyncq-prometheus  | time=2026-03-08T23:00:06.709Z level=INFO source=db.go:2039 msg="Deleting obsolete block" component=tsdb block=01KK768GQGKH721ZD7WHSBZPAB
+[2Kproxsyncq-prometheus  | time=2026-03-09T01:00:01.715Z level=INFO source=compact.go:590 msg="write block started" component=tsdb mint=1773007200327 maxt=1773014400000 ulid=01KK81QC9K82E6523NK3EJH55B
+[2Kproxsyncq-prometheus  | time=2026-03-09T01:00:02.309Z level=INFO source=compact.go:627 msg="write block completed" component=tsdb mint=1773007200327 maxt=1773014400000 ulid=01KK81QC9K82E6523NK3EJH55B duration=594.552814ms ooo=false
+[2Kproxsyncq-prometheus  | time=2026-03-09T01:00:02.311Z level=INFO source=head.go:1453 msg="Head GC started" component=tsdb caller=truncateMemory
+[2Kproxsyncq-prometheus  | time=2026-03-09T01:00:02.326Z level=INFO source=head.go:1457 msg="Head GC completed" component=tsdb caller=truncateMemory duration=14.918115ms
+[2Kproxsyncq-prometheus  | time=2026-03-09T01:00:02.329Z level=INFO source=checkpoint.go:99 msg="Creating checkpoint" component=tsdb from_segment=35 to_segment=36 mint=1773014400000
+[2Kproxsyncq-prometheus  | time=2026-03-09T01:00:03.118Z level=INFO source=head.go:1418 msg="WAL checkpoint complete" component=tsdb first=35 last=36 duration=789.369627ms

@@ -1,0 +1,12 @@
+[Unit]
+Description=Run ipmitool sensor metrics collection every minute
+After=systemd-modules-load.service
+ConditionFileIsExecutable=/usr/bin/ipmitool
+ConditionDirectoryNotEmpty=/sys/class/ipmi
+
+[Timer]
+OnBootSec=0
+OnUnitActiveSec=1min
+
+[Install]
+WantedBy=timers.target
