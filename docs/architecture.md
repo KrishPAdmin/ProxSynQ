@@ -1,35 +1,13 @@
-# Architecture
 
-## Overview
-ProxSyncQ runs across multiple VM nodes and integrates two infrastructure subsystems:
-1) file synchronization with conflict detection
-2) distributed job processing with retries and deduplication
+<!-- PROXSYNCQ_ARCH_RPI_CONTROL_PLANE -->
+## Raspberry Pi control plane
 
-The design targets eventual convergence under partitions and node restarts, and safe at-least-once job execution using idempotency.
+The Raspberry Pi acts as the ProxSyncQ control and visibility plane.
 
-## Components
-### File sync
-- Sync Agent (per node)
-  - watches a directory and detects changes
-  - produces sync events and schedules replication jobs
-  - applies remote updates using an atomic staging approach
-- Metadata
-  - tracks file version information for concurrency detection
-  - stores file hashes to validate correctness
+It hosts:
 
-### Job processing
-- Job API
-  - accepts job submissions with job type, payload, and idempotency key
-- Broker
-  - durable queue with ack and redelivery
-- Worker (per node)
-  - consumes jobs and processes them
-  - uses idempotency and a dedupe store to prevent unsafe duplicates
+- Prometheus for metrics collection
+- Grafana for dashboards
+- a ProxSyncQ Control UI for job submission, queue visibility, cluster health, and Gluster failover visibility
 
-## Integration
-- File changes become jobs so replication can be throttled, retried, and replayed.
-- Periodic audit jobs validate convergence and schedule repairs.
-
-## Execution semantics
-- Jobs: at-least-once with idempotency keys and deduplication
-- Replication: eventual convergence with explicit conflict detection
+The VM nodes continue to host the distributed worker logic, while the Pi provides a single operational surface for observing and driving the system.

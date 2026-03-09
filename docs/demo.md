@@ -1,37 +1,57 @@
-# Demo plan
+# ProxSyncQ Demo
 
-## Goals
-- show file updates propagate across nodes
-- show conflict detection when two nodes update the same file
-- show crash recovery for job processing
-- show convergence after a temporary partition
+## Cluster readiness proof
 
-## Demo sequence
-### 1) Baseline operation
-- start services on all nodes
-- confirm each node is reachable
-- submit a few test jobs and show they are processed
+Run:
 
-### 2) File propagation
-- edit a file on node A
-- show node B and node C receive the update
+./scripts/verify_cluster.sh
 
-### 3) Conflict case
-- edit the same file on node A and node B within a short interval
-- show conflict is detected and both versions are preserved
+Expected proof:
+- each VM is reachable
+- /srv/proxsyncq/shared is mounted
+- each VM can write a proof file
+- proof files are visible from the shared path
 
-### 4) Worker crash recovery
-- submit a batch of jobs
-- kill a worker mid-processing
-- show redelivery and completion on another worker
+## Distributed job execution proof
 
-### 5) Partition and convergence
-- isolate node C temporarily
-- apply updates on nodes A and B
-- restore node C connectivity
-- show node C converges to the latest consistent state
+Run the node agent on vm1, vm2, and vm3.
 
-## Evidence to show
-- queue depth and job acknowledgements
-- logs for retries and dedupe behavior
-- file hashes or audit output proving convergence
+Submit test jobs:
+
+./scripts/submit_batch.sh http://10.26.0.171:8000/jobs 20
+
+Expected proof:
+- jobs are accepted by the API on vm1
+- workers on multiple VMs consume from the shared queue
+- demo_write jobs create result artifacts under /srv/proxsyncq/shared/results
+- claimed_by values show which VM executed each job
+
+To inspect DB-backed state:
+
+./scripts/show_jobs.sh
+
+<!-- PROXSYNCQ_DEMO_CONTROL_PLANE -->
+## Raspberry Pi control plane demo
+
+Open the Raspberry Pi control plane UI.
+
+Expected proof:
+
+- cluster health is visible for VM1, VM2, VM3, and Pi
+- queue summary is visible
+- recent jobs are visible
+- CPU, memory, root filesystem, and shared mount usage are visible
+- the Gluster failover ring is shown as VM1 -> VM2 -> VM3 -> VM1
+
+## Cyclic storage failover proof
+
+Demonstrate the configured client failover mapping:
+
+- VM1 uses backup server VM2
+- VM2 uses backup server VM3
+- VM3 uses backup server VM1
+
+Expected proof:
+
+- the shared mount remains visible from a client after the current Gluster endpoint is unavailable
+- the cyclic next-hop mapping is documented and visible in the control plane
