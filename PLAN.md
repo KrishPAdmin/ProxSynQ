@@ -327,3 +327,5 @@ Goal: a single place showing status of the three VMs and the arbiter.
 9) Phase 8.1 to 8.2 (fault injection and evidence collection)
 10) Phase 9 (storage comparison)
 11) Phase 10 (interim and final report completion)
+
+Note - Some automation and scripting support was assisted by AI-based tools, with overall implementation, validation, and integration carried out by me!
