@@ -12,7 +12,7 @@ This task list reflects the latest expectations discussed in the email thread wi
 
 ### 0.1 Confirm project direction with course staff
 - [x] Meet or message Deepu to walk through the implementation approach end to end
-- [x] Clarify “host vs guest OS” wording:
+- [x] Clarify "host vs guest OS" wording:
   - Sync Agent interacts with the guest OS inside each VM (filesystem monitoring, atomic writes)
   - ProxMox host actions happen via the ProxMox VE API (start/stop/reboot, fault injection)
 - [x] Reiterate individual completion request and accountability
@@ -30,7 +30,7 @@ This task list reflects the latest expectations discussed in the email thread wi
   - `docs/networking.md`
   - `docs/storage-options.md`
   - `docs/failure-tests.md`
-- [x] Add a short “Implementation Approach” subsection in `docs/architecture.md` that explicitly mentions:
+- [x] Add a short "Implementation Approach" subsection in `docs/architecture.md` that explicitly mentions:
   - Python services inside VMs
   - ProxMox VE API usage for orchestration and fault injection
   - Optional Raspberry Pi out of band coordinator
@@ -44,7 +44,7 @@ This task list reflects the latest expectations discussed in the email thread wi
 - [x] Define the sync scope directory and directory rules:
   - example: `/srv/proxsyncq/watch`
   - define what file types are included or excluded
-- [x] Define “conflict” precisely for the Minimum Viable Product and how conflicts are stored/preserved
+- [x] Define "conflict" precisely for the Minimum Viable Product and how conflicts are stored/preserved
 
 **Done when:** docs precisely specify formats, paths, and Minimum Viable Product behavior.
 
@@ -84,17 +84,17 @@ This task list reflects the latest expectations discussed in the email thread wi
 
 ## Phase 2: Raspberry Pi control plane (quorum/arbiter + dashboard host)
 
-This phase supports the professor’s emphasis on practical infrastructure and provides an out of band coordinator.
+This phase supports the professor's emphasis on practical infrastructure and provides an out of band coordinator.
 
 ### 2.1 Raspberry Pi base setup
-- [ ] Configure Pi static IP and hostname (example: `arbiter`)
-- [ ] Secure SSH access
-- [ ] Install baseline packages and Python environment or Docker runtime
+- [x] Configure Pi static IP and hostname (`10.26.0.170` / `COE892-RPi`)
+- [x] Secure SSH access
+- [x] Install baseline packages and Python environment or Docker runtime
 
 **Done when:** Pi is stable and reachable, and can run services continuously.
 
 ### 2.2 Arbiter quorum coordinator (out of band decision maker)
-- [ ] Implement a lightweight arbiter service that monitors node and service health:
+- [x] Implement a lightweight arbiter service that monitors node and service health:
   - ping checks
   - API health checks (`/health`)
   - worker heartbeat records (optional)
@@ -103,7 +103,7 @@ This phase supports the professor’s emphasis on practical infrastructure and p
   - how to avoid repeated restart loops
 - [ ] Implement actions the arbiter can initiate:
   - call ProxMox VE API to reboot an unresponsive VM
-  - trigger “failover behavior” by requeueing jobs or shifting scheduled audits to healthy nodes
+  - trigger "failover behavior" by requeueing jobs or shifting scheduled audits to healthy nodes
   - optional network isolation fault injection control
 
 **Done when:** if a VM becomes unresponsive, the arbiter can detect it and initiate a controlled response.
@@ -111,12 +111,12 @@ This phase supports the professor’s emphasis on practical infrastructure and p
 ### 2.3 Central dashboard hosted on the Raspberry Pi
 Goal: a single place showing status of the three VMs and the arbiter.
 
-- [ ] Deploy a monitoring stack on the Pi:
+- [x] Deploy a monitoring stack on the Pi:
   - Prometheus on Pi
   - Grafana on Pi
-- [ ] Add node telemetry from each VM:
+- [x] Add node telemetry from each VM:
   - CPU, memory, disk, network
-  - recommend a node exporter per VM
+  - node exporter deployed on all 4 nodes (RPi + 3 VMs)
 - [ ] Add application telemetry:
   - current queue depth
   - job throughput and latency
@@ -134,8 +134,8 @@ Goal: a single place showing status of the three VMs and the arbiter.
 ## Phase 3: Minimum Viable Product control plane services (broker + DB)
 
 ### 3.1 Broker and database deployment
-- [ ] Deploy a durable broker (RabbitMQ for Minimum Viable Product)
-- [ ] Deploy Postgres for metadata and deduplication
+- [x] Deploy a durable broker (RabbitMQ — running on `10.26.0.171:5672`, confirmed reachable from all VMs)
+- [x] Deploy Postgres (running on `10.26.0.171:5432`, confirmed reachable from all VMs)
 - [ ] Create DB schema/tables for:
   - job idempotency and results
   - file version metadata
@@ -145,9 +145,9 @@ Goal: a single place showing status of the three VMs and the arbiter.
 **Done when:** broker accepts messages and DB tables can be queried and updated.
 
 ### 3.2 Common service standards
-- [ ] Standardize health endpoint: `/health`
-- [ ] Standardize metrics endpoint: `/metrics`
-- [ ] Standardize configuration via `.env` and environment variables
+- [x] Standardize health endpoint: `/health` (live on all 3 VMs on `:8000`)
+- [x] Standardize metrics endpoint: `/metrics` (node exporter on `:9100`, agent on `:8000`)
+- [x] Standardize configuration via `.env` and environment variables (docker-compose env block)
 
 **Done when:** each running service follows the same patterns for health, metrics, and configuration.
 
@@ -156,21 +156,21 @@ Goal: a single place showing status of the three VMs and the arbiter.
 ## Phase 4: Job queue core implementation
 
 ### 4.1 Job API service (Python)
-- [ ] Implement `POST /jobs` to publish durable jobs to the broker
+- [x] Implement `POST /jobs` to publish durable jobs to the broker
 - [ ] Support `idempotency_key` propagation in job payloads
-- [ ] Add basic request validation
+- [x] Add basic request validation
 - [ ] Add request and publish latency metrics
 
 **Done when:** jobs can be submitted consistently and are visible in the broker queue.
 
 ### 4.2 Worker service (Python)
-- [ ] Consume jobs using ack semantics and sensible prefetch
+- [x] Consume jobs using ack semantics and sensible prefetch
 - [ ] Implement idempotency checks using the DB table
-- [ ] Implement retry strategy:
+- [x] Implement retry strategy:
   - attempt tracking
-  - backoff
-  - max retries
-- [ ] Record job completion states in the database
+  - reclaim after lease expiry (observed: ~9s to requeue, ~13s to reclaim)
+- [ ] Implement full backoff and max retries
+- [x] Record job completion states (visible in Recent Jobs table on dashboard)
 
 **Done when:** killing a worker mid-processing results in safe retries and completion without unsafe duplicates.
 
@@ -230,19 +230,19 @@ Goal: a single place showing status of the three VMs and the arbiter.
 - [ ] Worker metrics: processed jobs, retries, failures, dedupe skips
 - [ ] Sync metrics: events emitted, apply success/fail, conflicts
 - [ ] Arbiter metrics: node health status, actions taken, quorum state
-- [ ] Expose `/metrics` endpoints consistently
+- [x] Expose `/metrics` endpoints consistently (node exporter + agent on all VMs)
 
 **Done when:** everything is observable, scrapeable, and dashboarded.
 
 ### 7.2 Dashboard completion on Raspberry Pi
-- [ ] Dashboard panels:
-  - node status: CPU, mem, disk, network for vm1, vm2, vm3, Pi
-  - queue: depth, publish rate, consume rate
-  - job history: recent jobs, success/fail, retries
-  - scheduled tasks: next run time, last run status
-  - sync: events emitted, apply rate, convergence signal
-  - conflicts: count and latest conflict records
-  - arbiter: decisions and last action timeline
+- [x] Node status panels: CPU, mem, disk for all 4 nodes (Pi + 3 VMs) — live on control UI
+- [x] Per-node health cards: RabbitMQ, Postgres, shared mount, agent scrape status
+- [ ] Queue panels: depth, publish rate, consume rate (RabbitMQ stats partially visible)
+- [x] Job history: recent jobs table with state, claimed_by, attempts, submitted_by
+- [ ] Scheduled tasks: next run time, last run status
+- [ ] Sync: events emitted, apply rate, convergence signal
+- [ ] Conflicts: count and latest conflict records
+- [ ] Arbiter: decisions and last action timeline
 
 **Done when:** the Pi dashboard shows the current status of everything end to end.
 
@@ -251,7 +251,7 @@ Goal: a single place showing status of the three VMs and the arbiter.
 ## Phase 8: Failure tests and repeatable demo scripts (includes ProxMox API + arbiter)
 
 ### 8.1 Failure scenarios
-- [ ] Worker crash test (kill worker mid-job)
+- [x] Worker crash test (kill worker mid-job — reclaim demonstrated, evidence in README lifecycle demo)
 - [ ] Service restart test (restart broker or API service)
 - [ ] Partition test (isolate one node for N seconds, restore)
 - [ ] Node down test (shutdown one VM, continue, restore and converge)
@@ -264,7 +264,8 @@ Goal: a single place showing status of the three VMs and the arbiter.
 **Done when:** each test is repeatable and produces clear evidence in metrics/logs/dashboards.
 
 ### 8.2 Evidence collection
-- [ ] Save logs and command outputs with timestamps
+- [x] Lifecycle demo recorded with timestamps (README reclaim timeline)
+- [ ] Save logs and command outputs with timestamps for remaining failure tests
 - [ ] Export screenshots or snapshots of dashboards
 - [ ] Record measured convergence time and retry behavior
 
@@ -281,7 +282,7 @@ Goal: a single place showing status of the three VMs and the arbiter.
   - conflict behavior under stress
 
 ### 9.2 NAS-style shared storage path
-- [ ] Add NAS setup and mount instructions
+- [x] GlusterFS volume (`10.26.0.172:/proxsyncqvol`) mounted on all 3 VMs at `/srv/proxsyncq/shared`
 - [ ] Run the same experiments using NAS
 - [ ] Compare and decide final approach with justification
 
