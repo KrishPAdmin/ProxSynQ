@@ -1,0 +1,25 @@
+[Unit]
+Description=GlusterFS, a clustered file-system server
+Documentation=man:glusterd(8)
+StartLimitBurst=6
+StartLimitIntervalSec=3600
+Requires=
+After=network.target network-online.target
+
+[Service]
+Type=forking
+PIDFile=/run/glusterd.pid
+LimitNOFILE=65536
+Environment="LOG_LEVEL=INFO"
+EnvironmentFile=-/etc/default/glusterd
+ExecStart=/usr/sbin/glusterd -p /var/run/glusterd.pid  --log-level $LOG_LEVEL $GLUSTERD_OPTIONS
+KillMode=control-group
+TimeoutSec=300
+SuccessExitStatus=15
+Restart=on-abnormal
+RestartSec=60
+StartLimitBurst=6
+StartLimitInterval=3600
+
+[Install]
+WantedBy=multi-user.target

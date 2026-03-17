@@ -1,0 +1,18 @@
+### df_h
+
+Filesystem                 Size  Used Avail Use% Mounted on
+udev                       661M     0  661M   0% /dev
+tmpfs                      370M   14M  356M   4% /run
+/dev/mmcblk0p2              29G  7.2G   21G  27% /
+tmpfs                      923M     0  923M   0% /dev/shm
+tmpfs                      5.0M   16K  5.0M   1% /run/lock
+tmpfs                      1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs                      923M  152K  923M   1% /tmp
+/dev/mmcblk0p1             510M   66M  445M  13% /boot/firmware
+10.26.0.172:/proxsyncqvol   98G   11G   84G  12% /srv/proxsyncq/shared
+overlay                     29G  7.2G   21G  27% /var/lib/docker/overlay2/004ee35d52da96c21a0c9406f5ae4c07a4663188a280932785f3d23dc1e5f2e6/merged
+overlay                     29G  7.2G   21G  27% /var/lib/docker/overlay2/84ab2586ccd6c3bc0a47d8e48837de5f516a09f07c36f91b6e8cfdd6cd9bec03/merged
+tmpfs                      1.0M     0  1.0M   0% /run/credentials/serial-getty@ttyS0.service
+tmpfs                      1.0M     0  1.0M   0% /run/credentials/getty@tty1.service
+tmpfs                      185M  8.0K  185M   1% /run/user/1000
+overlay                     29G  7.2G   21G  27% /var/lib/docker/overlay2/8a7b8f0cab904ff22f42c62861257a58689d9845347fa106e8ea3a35583dc0db/merged

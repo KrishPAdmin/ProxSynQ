@@ -1,0 +1,20 @@
+Port 22
+Protocol 2
+
+PermitRootLogin no
+PubkeyAuthentication yes
+PasswordAuthentication yes
+KbdInteractiveAuthentication no
+ChallengeResponseAuthentication no
+UsePAM yes
+
+AuthorizedKeysFile .ssh/authorized_keys
+
+X11Forwarding no
+PrintMotd no
+PermitEmptyPasswords no
+MaxAuthTries 6
+
+Subsystem sftp /usr/lib/openssh/sftp-server
+
+Include /etc/ssh/sshd_config.d/*.conf

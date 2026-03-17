@@ -1,0 +1,24 @@
+[Unit]
+Description=ProxSyncQ Sync Agent
+After=network.target
+
+[Service]
+Type=simple
+User=krishadmin
+WorkingDirectory=/home/krishadmin/proxsyncq-node-agent
+ExecStart=/home/krishadmin/.venv/bin/python3 /home/krishadmin/proxsyncq-node-agent/sync_agent.py
+Restart=on-failure
+RestartSec=10
+StandardOutput=journal
+StandardError=journal
+Environment=SHARED_PATH=/srv/proxsyncq/shared
+Environment=LOCAL_WATCH_DIR=/srv/proxsyncq/watch
+Environment=POSTGRES_HOST=10.26.0.171
+Environment=POSTGRES_PORT=5432
+Environment=POSTGRES_DB=proxsyncq
+Environment=POSTGRES_USER=proxsyncq
+Environment=POSTGRES_PASS=proxsyncqpass
+Environment=PULL_INTERVAL=10
+
+[Install]
+WantedBy=multi-user.target

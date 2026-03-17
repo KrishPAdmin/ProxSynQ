@@ -1,0 +1,20 @@
+[Unit]
+Description=ProxSyncQ Node Agent
+After=network.target
+
+[Service]
+User=krishadmin
+Group=krishadmin
+WorkingDirectory=/home/krishadmin/proxsyncq-node-agent
+Environment=RABBIT_HOST=10.26.0.171
+Environment=RABBIT_PORT=5672
+Environment=POSTGRES_HOST=10.26.0.171
+Environment=POSTGRES_PORT=5432
+Environment=SHARED_PATH=/srv/proxsyncq/shared
+ExecStart=/home/krishadmin/proxsyncq-node-agent/.venv/bin/uvicorn app:app --host 0.0.0.0 --port 8000
+Restart=always
+RestartSec=2
+TimeoutStopSec=5
+
+[Install]
+WantedBy=multi-user.target

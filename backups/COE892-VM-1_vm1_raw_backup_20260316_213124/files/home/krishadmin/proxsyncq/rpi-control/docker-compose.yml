@@ -1,0 +1,60 @@
+services:
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: proxsyncq-prometheus
+    restart: unless-stopped
+    command:
+      - --config.file=/etc/prometheus/prometheus.yml
+      - --storage.tsdb.path=/prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+  grafana:
+    image: grafana/grafana:latest
+    container_name: proxsyncq-grafana
+    restart: unless-stopped
+    environment:
+      GF_SECURITY_ADMIN_USER: admin
+      GF_SECURITY_ADMIN_PASSWORD: proxsyncqadmin
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./grafana/provisioning/datasources:/etc/grafana/provisioning/datasources:ro
+      - ./grafana/provisioning/dashboards:/etc/grafana/provisioning/dashboards:ro
+      - ./grafana/dashboards:/var/lib/grafana/dashboards:ro
+  control_ui:
+    build:
+      context: ./control_ui
+    container_name: proxsyncq-control-ui
+    restart: unless-stopped
+    environment:
+      PROM_URL: http://prometheus:9090
+      RABBIT_URL: http://10.26.0.171:15672/api
+      RABBIT_USER: proxsyncq
+      RABBIT_PASS: proxsyncqpass
+      POSTGRES_HOST: 10.26.0.171
+      POSTGRES_PORT: "5432"
+      POSTGRES_DB: proxsyncq
+      POSTGRES_USER: proxsyncq
+      POSTGRES_PASS: proxsyncqpass
+      UI_USERNAME: krishadmin
+      UI_PASSWORD: KrishAdmin@2003
+      SESSION_SECRET: proxsyncq-session-secret-2026
+      NODE_MAP_JSON: |
+        [
+          {"name":"COE892-RPi","ip":"10.26.0.170","agent_port":null,"node_exporter_port":9100},
+          {"name":"COE892-VM-1","ip":"10.26.0.171","agent_port":8000,"node_exporter_port":9100},
+          {"name":"COE892-VM-2","ip":"10.26.0.172","agent_port":8000,"node_exporter_port":9100},
+          {"name":"COE892-VM-3","ip":"10.26.0.173","agent_port":8000,"node_exporter_port":9100}
+        ]
+    ports:
+      - "8080:8080"
+    depends_on:
+      - prometheus
+volumes:
+  prometheus_data:
+  grafana_data:

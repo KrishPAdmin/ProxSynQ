@@ -1,0 +1,30 @@
+[Unit]
+Description=ProxSyncQ Arbiter - out-of-band quorum coordinator
+After=network.target
+
+[Service]
+Type=simple
+User=krishadmin
+WorkingDirectory=/home/krishadmin/proxsyncq-rpi
+ExecStart=/usr/bin/python3 /home/krishadmin/proxsyncq-rpi/arbiter.py
+Restart=on-failure
+RestartSec=15
+StandardOutput=journal
+StandardError=journal
+
+Environment=POLL_INTERVAL=30
+Environment=FAIL_THRESHOLD=3
+Environment=COOLDOWN_SECONDS=300
+Environment=STATUS_PORT=8090
+Environment=PROXMOX_HOST=10.26.0.50
+Environment=PROXMOX_PORT=8006
+Environment=PROXMOX_NODE=prox
+Environment=PROXMOX_TOKEN=root@pam!proxsyncq=91e9c388-f1f5-41e4-80bc-1bda8ff96999
+Environment=POSTGRES_HOST=10.26.0.171
+Environment=POSTGRES_PORT=5432
+Environment=POSTGRES_DB=proxsyncq
+Environment=POSTGRES_USER=proxsyncq
+Environment=POSTGRES_PASS=proxsyncqpass
+
+[Install]
+WantedBy=multi-user.target

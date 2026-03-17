@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ProxSyncQ Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;900&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --accent: #20fd14;
+      --bg: #000;
+      --glassBg: rgba(12, 14, 16, 0.80);
+      --glassBorder: rgba(255, 255, 255, 0.10);
+      --shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+      --textSoft: rgb(190, 190, 190);
+      --titleShadow: 0 12px 30px rgba(0, 0, 0, 0.55);
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { font-size: 62.5%; font-family: "Source Sans 3", system-ui, sans-serif; }
+    body {
+      min-height: 100vh;
+      color: #fff;
+      background-color: var(--bg);
+      overflow-x: hidden;
+      position: relative;
+    }
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      background:
+        linear-gradient(to right, rgba(0, 0, 0, 0.80), rgba(37, 44, 49, 0.80)),
+        url("https://krishadmin.com/svg/common-bg.svg");
+      background-position: center;
+      background-size: cover;
+    }
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background-image: url("https://krishadmin.com/pics/LimeK.png");
+      background-repeat: no-repeat;
+      background-position: right 4% bottom 6%;
+      background-size: clamp(180px, 22vw, 360px);
+      opacity: 0.08;
+    }
+    .wrap {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2.4rem;
+    }
+    .card {
+      width: min(92vw, 52rem);
+      background: var(--glassBg);
+      border: 1px solid var(--glassBorder);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      padding: 3.2rem;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 1.4rem;
+      margin-bottom: 2.2rem;
+    }
+    .brand img {
+      width: 6rem;
+      height: 6rem;
+      border-radius: 999px;
+      object-fit: cover;
+      background: var(--accent);
+    }
+    h1 {
+      font-size: 3.2rem;
+      font-weight: 900;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-shadow: var(--titleShadow);
+    }
+    .sub {
+      margin-top: 0.8rem;
+      color: var(--textSoft);
+      font-size: 1.7rem;
+      line-height: 1.6;
+    }
+    .field {
+      margin-top: 1.6rem;
+    }
+    label {
+      display: block;
+      font-size: 1.4rem;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: 900;
+      color: var(--accent);
+      margin-bottom: 0.8rem;
+    }
+    input {
+      width: 100%;
+      padding: 1.3rem 1.4rem;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.06);
+      color: #fff;
+      font-size: 1.6rem;
+    }
+    button {
+      width: 100%;
+      margin-top: 2rem;
+      padding: 1.4rem 1.6rem;
+      border: 0;
+      border-radius: 10px;
+      background: var(--accent);
+      color: #000;
+      font-size: 1.6rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+    }
+    .error {
+      margin-top: 1.2rem;
+      color: #ff9494;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="brand">
+        <img src="https://krishadmin.com/pics/Krish_Patel_Face.jpg" alt="Krish Patel" />
+        <div>
+          <h1>ProxSyncQ Login</h1>
+          <div class="sub">Raspberry Pi control plane access for the COE892 cluster</div>
+        </div>
+      </div>
+      <form method="post" action="/login">
+        <div class="field">
+          <label for="username">Username</label>
+          <input id="username" name="username" type="text" autocomplete="username" required />
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" required />
+        </div>
+        <button type="submit">Sign In</button>
+        {% if error %}
+        <div class="error">{{ error }}</div>
+        {% endif %}
+      </form>
+    </div>
+  </div>
+</body>
+</html>

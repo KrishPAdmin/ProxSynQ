@@ -1,0 +1,6 @@
+### ip_r
+
+default via 10.26.0.1 dev eth0 proto static metric 100 
+10.26.0.0/24 dev eth0 proto kernel scope link src 10.26.0.170 metric 100 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+172.18.0.0/16 dev br-4492481667b7 proto kernel scope link src 172.18.0.1 

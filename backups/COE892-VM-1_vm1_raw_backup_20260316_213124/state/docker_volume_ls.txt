@@ -1,0 +1,5 @@
+### docker_volume_ls
+
+DRIVER    VOLUME NAME
+local     infra_postgres_data
+local     infra_rabbitmq_data

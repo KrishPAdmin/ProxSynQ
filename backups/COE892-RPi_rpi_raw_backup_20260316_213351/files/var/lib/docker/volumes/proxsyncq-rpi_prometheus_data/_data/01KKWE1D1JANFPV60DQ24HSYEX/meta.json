@@ -1,0 +1,18 @@
+{
+	"ulid": "01KKWE1D1JANFPV60DQ24HSYEX",
+	"minTime": 1773691200327,
+	"maxTime": 1773698400000,
+	"stats": {
+		"numSamples": 5867211,
+		"numFloatSamples": 5867211,
+		"numSeries": 8163,
+		"numChunks": 48916
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01KKWE1D1JANFPV60DQ24HSYEX"
+		]
+	},
+	"version": 1
+}

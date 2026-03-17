@@ -1,0 +1,4 @@
+proc            /proc           proc    defaults          0       0
+PARTUUID=60e2035a-01  /boot/firmware  vfat    defaults          0       2
+PARTUUID=60e2035a-02  /               ext4    defaults,noatime  0       1
+10.26.0.172:/proxsyncqvol /srv/proxsyncq/shared glusterfs defaults,_netdev,backupvolfile-server=10.26.0.173 0 0

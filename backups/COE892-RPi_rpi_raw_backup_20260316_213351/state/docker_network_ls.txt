@@ -1,0 +1,7 @@
+### docker_network_ls
+
+NETWORK ID     NAME                    DRIVER    SCOPE
+71fcebb6ae75   bridge                  bridge    local
+264710296b98   host                    host      local
+6159f17b3c34   none                    null      local
+4492481667b7   proxsyncq-rpi_default   bridge    local

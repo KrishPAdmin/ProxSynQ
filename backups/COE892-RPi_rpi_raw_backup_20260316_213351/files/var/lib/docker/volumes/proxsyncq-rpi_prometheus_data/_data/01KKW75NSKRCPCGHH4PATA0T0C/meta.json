@@ -1,0 +1,18 @@
+{
+	"ulid": "01KKW75NSKRCPCGHH4PATA0T0C",
+	"minTime": 1773684000327,
+	"maxTime": 1773691200000,
+	"stats": {
+		"numSamples": 5867402,
+		"numFloatSamples": 5867402,
+		"numSeries": 8163,
+		"numChunks": 48913
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01KKW75NSKRCPCGHH4PATA0T0C"
+		]
+	},
+	"version": 1
+}

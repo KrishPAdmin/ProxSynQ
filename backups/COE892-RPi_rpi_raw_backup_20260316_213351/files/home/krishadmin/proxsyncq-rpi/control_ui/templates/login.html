@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ProxSyncQ Login</title>
+  <style>
+    :root {
+      --accent: #20fd14;
+      --bg: #000;
+      --glassBg: rgba(12, 14, 16, 0.82);
+      --glassBorder: rgba(255,255,255,0.10);
+      --textSub: rgb(149,149,149);
+      --shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { font-size: 62.5%; font-family: Arial, sans-serif; }
+    body {
+      min-height: 100vh;
+      background:
+        linear-gradient(to right, rgba(0,0,0,0.84), rgba(28,32,36,0.84)),
+        url("https://krishadmin.com/svg/common-bg.svg");
+      background-size: cover;
+      color: #fff;
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+    }
+    .card {
+      width: min(46rem, 100%);
+      background: var(--glassBg);
+      border: 1px solid var(--glassBorder);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+      padding: 2.2rem;
+    }
+    h1 {
+      font-size: 3.2rem;
+      font-weight: 900;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 1.6rem;
+    }
+    label {
+      display: block;
+      margin-bottom: 0.6rem;
+      font-size: 1.15rem;
+      letter-spacing: 1px;
+      font-weight: 900;
+      color: var(--accent);
+      text-transform: uppercase;
+    }
+    input {
+      width: 100%;
+      min-height: 4.8rem;
+      margin-bottom: 1.3rem;
+      padding: 1rem 1.2rem;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.06);
+      color: #fff;
+      font-size: 1.5rem;
+    }
+    button {
+      width: 100%;
+      min-height: 4.8rem;
+      border: 0;
+      border-radius: 10px;
+      background: var(--accent);
+      color: #000;
+      font-size: 1.35rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      cursor: pointer;
+    }
+    .error {
+      color: #ff8f8f;
+      font-size: 1.35rem;
+      margin-bottom: 1.2rem;
+    }
+    .muted {
+      margin-top: 1.2rem;
+      color: var(--textSub);
+      font-size: 1.3rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>ProxSyncQ Login</h1>
+    {% if error %}
+    <div class="error">{{ error }}</div>
+    {% endif %}
+    <form method="post" action="/login">
+      <label for="username">Username</label>
+      <input id="username" name="username" autocomplete="username" />
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" />
+      <button type="submit">Login</button>
+    </form>
+    <div class="muted">{{ ui_marker }}</div>
+  </div>
+  <!-- ui-pi-final-v9 -->
+</body>
+</html>
