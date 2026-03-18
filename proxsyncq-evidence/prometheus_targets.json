@@ -1,0 +1,197 @@
+{
+    "status": "success",
+    "data": {
+        "activeTargets": [
+            {
+                "discoveredLabels": {
+                    "__address__": "10.26.0.171:8000",
+                    "__metrics_path__": "/metrics",
+                    "__scheme__": "http",
+                    "__scrape_interval__": "10s",
+                    "__scrape_timeout__": "10s",
+                    "job": "node_agent"
+                },
+                "labels": {
+                    "instance": "10.26.0.171:8000",
+                    "job": "node_agent"
+                },
+                "scrapePool": "node_agent",
+                "scrapeUrl": "http://10.26.0.171:8000/metrics",
+                "globalUrl": "http://10.26.0.171:8000/metrics",
+                "lastError": "",
+                "lastScrape": "2026-03-18T00:23:23.416824068Z",
+                "lastScrapeDuration": 0.00366838,
+                "health": "up",
+                "scrapeInterval": "10s",
+                "scrapeTimeout": "10s"
+            },
+            {
+                "discoveredLabels": {
+                    "__address__": "10.26.0.172:8000",
+                    "__metrics_path__": "/metrics",
+                    "__scheme__": "http",
+                    "__scrape_interval__": "10s",
+                    "__scrape_timeout__": "10s",
+                    "job": "node_agent"
+                },
+                "labels": {
+                    "instance": "10.26.0.172:8000",
+                    "job": "node_agent"
+                },
+                "scrapePool": "node_agent",
+                "scrapeUrl": "http://10.26.0.172:8000/metrics",
+                "globalUrl": "http://10.26.0.172:8000/metrics",
+                "lastError": "",
+                "lastScrape": "2026-03-18T00:23:29.288509793Z",
+                "lastScrapeDuration": 0.003275182,
+                "health": "up",
+                "scrapeInterval": "10s",
+                "scrapeTimeout": "10s"
+            },
+            {
+                "discoveredLabels": {
+                    "__address__": "10.26.0.173:8000",
+                    "__metrics_path__": "/metrics",
+                    "__scheme__": "http",
+                    "__scrape_interval__": "10s",
+                    "__scrape_timeout__": "10s",
+                    "job": "node_agent"
+                },
+                "labels": {
+                    "instance": "10.26.0.173:8000",
+                    "job": "node_agent"
+                },
+                "scrapePool": "node_agent",
+                "scrapeUrl": "http://10.26.0.173:8000/metrics",
+                "globalUrl": "http://10.26.0.173:8000/metrics",
+                "lastError": "",
+                "lastScrape": "2026-03-18T00:23:31.710088124Z",
+                "lastScrapeDuration": 0.003709287,
+                "health": "up",
+                "scrapeInterval": "10s",
+                "scrapeTimeout": "10s"
+            },
+            {
+                "discoveredLabels": {
+                    "__address__": "10.26.0.170:9100",
+                    "__metrics_path__": "/metrics",
+                    "__scheme__": "http",
+                    "__scrape_interval__": "10s",
+                    "__scrape_timeout__": "10s",
+                    "job": "node_exporter"
+                },
+                "labels": {
+                    "instance": "10.26.0.170:9100",
+                    "job": "node_exporter"
+                },
+                "scrapePool": "node_exporter",
+                "scrapeUrl": "http://10.26.0.170:9100/metrics",
+                "globalUrl": "http://10.26.0.170:9100/metrics",
+                "lastError": "",
+                "lastScrape": "2026-03-18T00:23:23.643684646Z",
+                "lastScrapeDuration": 0.232778201,
+                "health": "up",
+                "scrapeInterval": "10s",
+                "scrapeTimeout": "10s"
+            },
+            {
+                "discoveredLabels": {
+                    "__address__": "10.26.0.171:9100",
+                    "__metrics_path__": "/metrics",
+                    "__scheme__": "http",
+                    "__scrape_interval__": "10s",
+                    "__scrape_timeout__": "10s",
+                    "job": "node_exporter"
+                },
+                "labels": {
+                    "instance": "10.26.0.171:9100",
+                    "job": "node_exporter"
+                },
+                "scrapePool": "node_exporter",
+                "scrapeUrl": "http://10.26.0.171:9100/metrics",
+                "globalUrl": "http://10.26.0.171:9100/metrics",
+                "lastError": "",
+                "lastScrape": "2026-03-18T00:23:26.915535162Z",
+                "lastScrapeDuration": 0.031083003,
+                "health": "up",
+                "scrapeInterval": "10s",
+                "scrapeTimeout": "10s"
+            },
+            {
+                "discoveredLabels": {
+                    "__address__": "10.26.0.172:9100",
+                    "__metrics_path__": "/metrics",
+                    "__scheme__": "http",
+                    "__scrape_interval__": "10s",
+                    "__scrape_timeout__": "10s",
+                    "job": "node_exporter"
+                },
+                "labels": {
+                    "instance": "10.26.0.172:9100",
+                    "job": "node_exporter"
+                },
+                "scrapePool": "node_exporter",
+                "scrapeUrl": "http://10.26.0.172:9100/metrics",
+                "globalUrl": "http://10.26.0.172:9100/metrics",
+                "lastError": "",
+                "lastScrape": "2026-03-18T00:23:23.274790747Z",
+                "lastScrapeDuration": 0.043404886,
+                "health": "up",
+                "scrapeInterval": "10s",
+                "scrapeTimeout": "10s"
+            },
+            {
+                "discoveredLabels": {
+                    "__address__": "10.26.0.173:9100",
+                    "__metrics_path__": "/metrics",
+                    "__scheme__": "http",
+                    "__scrape_interval__": "10s",
+                    "__scrape_timeout__": "10s",
+                    "job": "node_exporter"
+                },
+                "labels": {
+                    "instance": "10.26.0.173:9100",
+                    "job": "node_exporter"
+                },
+                "scrapePool": "node_exporter",
+                "scrapeUrl": "http://10.26.0.173:9100/metrics",
+                "globalUrl": "http://10.26.0.173:9100/metrics",
+                "lastError": "",
+                "lastScrape": "2026-03-18T00:23:30.327861782Z",
+                "lastScrapeDuration": 0.036551194,
+                "health": "up",
+                "scrapeInterval": "10s",
+                "scrapeTimeout": "10s"
+            },
+            {
+                "discoveredLabels": {
+                    "__address__": "prometheus:9090",
+                    "__metrics_path__": "/metrics",
+                    "__scheme__": "http",
+                    "__scrape_interval__": "10s",
+                    "__scrape_timeout__": "10s",
+                    "job": "prometheus"
+                },
+                "labels": {
+                    "instance": "prometheus:9090",
+                    "job": "prometheus"
+                },
+                "scrapePool": "prometheus",
+                "scrapeUrl": "http://prometheus:9090/metrics",
+                "globalUrl": "http://prometheus:9090/metrics",
+                "lastError": "",
+                "lastScrape": "2026-03-18T00:23:26.05856274Z",
+                "lastScrapeDuration": 0.015874266,
+                "health": "up",
+                "scrapeInterval": "10s",
+                "scrapeTimeout": "10s"
+            }
+        ],
+        "droppedTargets": [],
+        "droppedTargetCounts": {
+            "node_agent": 0,
+            "node_exporter": 0,
+            "prometheus": 0
+        }
+    }
+}

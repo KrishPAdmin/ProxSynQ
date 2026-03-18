@@ -1,0 +1,79 @@
+--- Arbiter /status ---
+{
+    "arbiter": "COE892-RPi",
+    "started_at": "2026-03-17T00:16:57.796781+00:00",
+    "checked_at": "2026-03-18T00:23:26+00:00",
+    "quorum": "3/3",
+    "quorum_ok": true,
+    "nodes": [
+        {
+            "name": "COE892-VM-1",
+            "ip": "10.26.0.171",
+            "vmid": 171,
+            "healthy": true,
+            "fail_count": 0,
+            "last_check": "2026-03-18T00:23:12+00:00",
+            "last_healthy": "2026-03-18T00:23:12+00:00",
+            "last_action": null,
+            "last_reboot": null,
+            "health_data": {
+                "node": "COE892-VM-1",
+                "shared_path": "/srv/proxsyncq/shared",
+                "shared_path_exists": true,
+                "shared_path_mounted": true,
+                "results_dir": "/srv/proxsyncq/shared/results",
+                "results_dir_exists": true,
+                "rabbitmq": true,
+                "postgres": true,
+                "time": "2026-03-18T00:23:12.889231+00:00"
+            }
+        },
+        {
+            "name": "COE892-VM-2",
+            "ip": "10.26.0.172",
+            "vmid": 172,
+            "healthy": true,
+            "fail_count": 0,
+            "last_check": "2026-03-18T00:23:12+00:00",
+            "last_healthy": "2026-03-18T00:23:12+00:00",
+            "last_action": "start_vm ok @ 2026-03-17T00:19:42+00:00",
+            "last_reboot": 1773706782.5061383,
+            "health_data": {
+                "node": "COE892-VM-2",
+                "shared_path": "/srv/proxsyncq/shared",
+                "shared_path_exists": true,
+                "shared_path_mounted": true,
+                "results_dir": "/srv/proxsyncq/shared/results",
+                "results_dir_exists": true,
+                "rabbitmq": true,
+                "postgres": true,
+                "time": "2026-03-18T00:23:12.899239+00:00"
+            }
+        },
+        {
+            "name": "COE892-VM-3",
+            "ip": "10.26.0.173",
+            "vmid": 173,
+            "healthy": true,
+            "fail_count": 0,
+            "last_check": "2026-03-18T00:23:12+00:00",
+            "last_healthy": "2026-03-18T00:23:12+00:00",
+            "last_action": "start_vm ok @ 2026-03-17T00:22:53+00:00",
+            "last_reboot": 1773706973.3870673,
+            "health_data": {
+                "node": "COE892-VM-3",
+                "shared_path": "/srv/proxsyncq/shared",
+                "shared_path_exists": true,
+                "shared_path_mounted": true,
+                "results_dir": "/srv/proxsyncq/shared/results",
+                "results_dir_exists": true,
+                "rabbitmq": true,
+                "postgres": true,
+                "time": "2026-03-18T00:23:12.907936+00:00"
+            }
+        }
+    ],
+    "poll_interval": 30,
+    "fail_threshold": 3,
+    "cooldown": 300
+}

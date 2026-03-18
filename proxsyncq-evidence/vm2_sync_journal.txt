@@ -1,0 +1,300 @@
+Mar 16 20:31:42 COE892-VM-2 python3[2690]: SyntaxError: '(' was never closed
+Mar 16 20:31:42 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:31:42 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:31:52 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 14.
+Mar 16 20:31:52 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:31:52 COE892-VM-2 python3[2692]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:31:52 COE892-VM-2 python3[2692]:     local_also_changed = (
+Mar 16 20:31:52 COE892-VM-2 python3[2692]:                          ^
+Mar 16 20:31:52 COE892-VM-2 python3[2692]: SyntaxError: '(' was never closed
+Mar 16 20:31:52 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:31:52 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:32:03 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 15.
+Mar 16 20:32:03 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:32:03 COE892-VM-2 python3[2695]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:32:03 COE892-VM-2 python3[2695]:     local_also_changed = (
+Mar 16 20:32:03 COE892-VM-2 python3[2695]:                          ^
+Mar 16 20:32:03 COE892-VM-2 python3[2695]: SyntaxError: '(' was never closed
+Mar 16 20:32:03 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:32:03 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:32:13 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 16.
+Mar 16 20:32:13 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:32:13 COE892-VM-2 python3[2700]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:32:13 COE892-VM-2 python3[2700]:     local_also_changed = (
+Mar 16 20:32:13 COE892-VM-2 python3[2700]:                          ^
+Mar 16 20:32:13 COE892-VM-2 python3[2700]: SyntaxError: '(' was never closed
+Mar 16 20:32:13 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:32:13 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:32:23 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 17.
+Mar 16 20:32:23 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:32:23 COE892-VM-2 python3[2702]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:32:23 COE892-VM-2 python3[2702]:     local_also_changed = (
+Mar 16 20:32:23 COE892-VM-2 python3[2702]:                          ^
+Mar 16 20:32:23 COE892-VM-2 python3[2702]: SyntaxError: '(' was never closed
+Mar 16 20:32:23 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:32:23 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:32:33 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 18.
+Mar 16 20:32:33 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:32:33 COE892-VM-2 python3[2704]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:32:33 COE892-VM-2 python3[2704]:     local_also_changed = (
+Mar 16 20:32:33 COE892-VM-2 python3[2704]:                          ^
+Mar 16 20:32:33 COE892-VM-2 python3[2704]: SyntaxError: '(' was never closed
+Mar 16 20:32:33 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:32:33 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:32:43 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 19.
+Mar 16 20:32:43 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:32:43 COE892-VM-2 python3[2708]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:32:43 COE892-VM-2 python3[2708]:     local_also_changed = (
+Mar 16 20:32:43 COE892-VM-2 python3[2708]:                          ^
+Mar 16 20:32:43 COE892-VM-2 python3[2708]: SyntaxError: '(' was never closed
+Mar 16 20:32:43 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:32:43 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:32:54 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 20.
+Mar 16 20:32:54 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:32:54 COE892-VM-2 python3[2710]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:32:54 COE892-VM-2 python3[2710]:     local_also_changed = (
+Mar 16 20:32:54 COE892-VM-2 python3[2710]:                          ^
+Mar 16 20:32:54 COE892-VM-2 python3[2710]: SyntaxError: '(' was never closed
+Mar 16 20:32:54 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:32:54 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:33:04 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 21.
+Mar 16 20:33:04 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:33:04 COE892-VM-2 python3[2712]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:33:04 COE892-VM-2 python3[2712]:     local_also_changed = (
+Mar 16 20:33:04 COE892-VM-2 python3[2712]:                          ^
+Mar 16 20:33:04 COE892-VM-2 python3[2712]: SyntaxError: '(' was never closed
+Mar 16 20:33:04 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:33:04 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:33:14 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 22.
+Mar 16 20:33:14 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:33:14 COE892-VM-2 python3[2715]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:33:14 COE892-VM-2 python3[2715]:     local_also_changed = (
+Mar 16 20:33:14 COE892-VM-2 python3[2715]:                          ^
+Mar 16 20:33:14 COE892-VM-2 python3[2715]: SyntaxError: '(' was never closed
+Mar 16 20:33:14 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:33:14 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:33:24 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 23.
+Mar 16 20:33:24 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:33:24 COE892-VM-2 python3[2717]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:33:24 COE892-VM-2 python3[2717]:     local_also_changed = (
+Mar 16 20:33:24 COE892-VM-2 python3[2717]:                          ^
+Mar 16 20:33:24 COE892-VM-2 python3[2717]: SyntaxError: '(' was never closed
+Mar 16 20:33:24 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:33:24 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:33:35 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 24.
+Mar 16 20:33:35 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:33:35 COE892-VM-2 python3[2719]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:33:35 COE892-VM-2 python3[2719]:     local_also_changed = (
+Mar 16 20:33:35 COE892-VM-2 python3[2719]:                          ^
+Mar 16 20:33:35 COE892-VM-2 python3[2719]: SyntaxError: '(' was never closed
+Mar 16 20:33:35 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:33:35 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:33:45 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 25.
+Mar 16 20:33:45 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:33:45 COE892-VM-2 python3[2722]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:33:45 COE892-VM-2 python3[2722]:     local_also_changed = (
+Mar 16 20:33:45 COE892-VM-2 python3[2722]:                          ^
+Mar 16 20:33:45 COE892-VM-2 python3[2722]: SyntaxError: '(' was never closed
+Mar 16 20:33:45 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:33:45 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:33:55 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 26.
+Mar 16 20:33:55 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:33:55 COE892-VM-2 python3[2724]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:33:55 COE892-VM-2 python3[2724]:     local_also_changed = (
+Mar 16 20:33:55 COE892-VM-2 python3[2724]:                          ^
+Mar 16 20:33:55 COE892-VM-2 python3[2724]: SyntaxError: '(' was never closed
+Mar 16 20:33:55 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:33:55 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:34:05 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 27.
+Mar 16 20:34:05 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:34:05 COE892-VM-2 python3[2726]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:34:05 COE892-VM-2 python3[2726]:     local_also_changed = (
+Mar 16 20:34:05 COE892-VM-2 python3[2726]:                          ^
+Mar 16 20:34:05 COE892-VM-2 python3[2726]: SyntaxError: '(' was never closed
+Mar 16 20:34:05 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:34:05 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:34:16 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 28.
+Mar 16 20:34:16 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:34:16 COE892-VM-2 python3[2729]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:34:16 COE892-VM-2 python3[2729]:     local_also_changed = (
+Mar 16 20:34:16 COE892-VM-2 python3[2729]:                          ^
+Mar 16 20:34:16 COE892-VM-2 python3[2729]: SyntaxError: '(' was never closed
+Mar 16 20:34:16 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:34:16 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:34:26 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 29.
+Mar 16 20:34:26 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:34:26 COE892-VM-2 python3[2731]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:34:26 COE892-VM-2 python3[2731]:     local_also_changed = (
+Mar 16 20:34:26 COE892-VM-2 python3[2731]:                          ^
+Mar 16 20:34:26 COE892-VM-2 python3[2731]: SyntaxError: '(' was never closed
+Mar 16 20:34:26 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:34:26 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:34:36 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 30.
+Mar 16 20:34:36 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:34:36 COE892-VM-2 python3[2733]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:34:36 COE892-VM-2 python3[2733]:     local_also_changed = (
+Mar 16 20:34:36 COE892-VM-2 python3[2733]:                          ^
+Mar 16 20:34:36 COE892-VM-2 python3[2733]: SyntaxError: '(' was never closed
+Mar 16 20:34:36 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:34:36 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:34:46 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 31.
+Mar 16 20:34:46 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:34:46 COE892-VM-2 python3[2736]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:34:46 COE892-VM-2 python3[2736]:     local_also_changed = (
+Mar 16 20:34:46 COE892-VM-2 python3[2736]:                          ^
+Mar 16 20:34:46 COE892-VM-2 python3[2736]: SyntaxError: '(' was never closed
+Mar 16 20:34:46 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:34:46 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:34:49 COE892-VM-2 systemd[1]: Stopped proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:34:49 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:34:49 COE892-VM-2 python3[3255]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:34:49 COE892-VM-2 python3[3255]:     local_also_changed = (
+Mar 16 20:34:49 COE892-VM-2 python3[3255]:                          ^
+Mar 16 20:34:49 COE892-VM-2 python3[3255]: SyntaxError: '(' was never closed
+Mar 16 20:34:49 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:34:49 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:35:00 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 32.
+Mar 16 20:35:00 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:35:00 COE892-VM-2 python3[3257]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:35:00 COE892-VM-2 python3[3257]:     local_also_changed = (
+Mar 16 20:35:00 COE892-VM-2 python3[3257]:                          ^
+Mar 16 20:35:00 COE892-VM-2 python3[3257]: SyntaxError: '(' was never closed
+Mar 16 20:35:00 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:35:00 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:35:10 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 33.
+Mar 16 20:35:10 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:35:10 COE892-VM-2 python3[3262]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:35:10 COE892-VM-2 python3[3262]:     local_also_changed = (
+Mar 16 20:35:10 COE892-VM-2 python3[3262]:                          ^
+Mar 16 20:35:10 COE892-VM-2 python3[3262]: SyntaxError: '(' was never closed
+Mar 16 20:35:10 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:35:10 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:35:20 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 34.
+Mar 16 20:35:20 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:35:20 COE892-VM-2 python3[3266]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:35:20 COE892-VM-2 python3[3266]:     local_also_changed = (
+Mar 16 20:35:20 COE892-VM-2 python3[3266]:                          ^
+Mar 16 20:35:20 COE892-VM-2 python3[3266]: SyntaxError: '(' was never closed
+Mar 16 20:35:20 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:35:20 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:35:30 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 35.
+Mar 16 20:35:30 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:35:30 COE892-VM-2 python3[3318]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:35:30 COE892-VM-2 python3[3318]:     local_also_changed = (
+Mar 16 20:35:30 COE892-VM-2 python3[3318]:                          ^
+Mar 16 20:35:30 COE892-VM-2 python3[3318]: SyntaxError: '(' was never closed
+Mar 16 20:35:30 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:35:30 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:35:41 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 36.
+Mar 16 20:35:41 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:35:41 COE892-VM-2 python3[3320]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:35:41 COE892-VM-2 python3[3320]:     local_also_changed = (
+Mar 16 20:35:41 COE892-VM-2 python3[3320]:                          ^
+Mar 16 20:35:41 COE892-VM-2 python3[3320]: SyntaxError: '(' was never closed
+Mar 16 20:35:41 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:35:41 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:35:51 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 37.
+Mar 16 20:35:51 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:35:51 COE892-VM-2 python3[3325]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:35:51 COE892-VM-2 python3[3325]:     local_also_changed = (
+Mar 16 20:35:51 COE892-VM-2 python3[3325]:                          ^
+Mar 16 20:35:51 COE892-VM-2 python3[3325]: SyntaxError: '(' was never closed
+Mar 16 20:35:51 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:35:51 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:36:01 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 38.
+Mar 16 20:36:01 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:36:01 COE892-VM-2 python3[3327]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:36:01 COE892-VM-2 python3[3327]:     local_also_changed = (
+Mar 16 20:36:01 COE892-VM-2 python3[3327]:                          ^
+Mar 16 20:36:01 COE892-VM-2 python3[3327]: SyntaxError: '(' was never closed
+Mar 16 20:36:01 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:36:01 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:36:11 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 39.
+Mar 16 20:36:11 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:36:11 COE892-VM-2 python3[3329]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:36:11 COE892-VM-2 python3[3329]:     local_also_changed = (
+Mar 16 20:36:11 COE892-VM-2 python3[3329]:                          ^
+Mar 16 20:36:11 COE892-VM-2 python3[3329]: SyntaxError: '(' was never closed
+Mar 16 20:36:11 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:36:11 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:36:22 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 40.
+Mar 16 20:36:22 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:36:22 COE892-VM-2 python3[3332]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:36:22 COE892-VM-2 python3[3332]:     local_also_changed = (
+Mar 16 20:36:22 COE892-VM-2 python3[3332]:                          ^
+Mar 16 20:36:22 COE892-VM-2 python3[3332]: SyntaxError: '(' was never closed
+Mar 16 20:36:22 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:36:22 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:36:32 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Scheduled restart job, restart counter is at 41.
+Mar 16 20:36:32 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:36:32 COE892-VM-2 python3[3337]:   File "/home/krishadmin/proxsyncq-node-agent/sync_agent.py", line 260
+Mar 16 20:36:32 COE892-VM-2 python3[3337]:     local_also_changed = (
+Mar 16 20:36:32 COE892-VM-2 python3[3337]:                          ^
+Mar 16 20:36:32 COE892-VM-2 python3[3337]: SyntaxError: '(' was never closed
+Mar 16 20:36:32 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:36:32 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Failed with result 'exit-code'.
+Mar 16 20:36:32 COE892-VM-2 systemd[1]: Stopped proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:38:06 COE892-VM-2 systemd[1]: Started proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.
+Mar 16 20:38:06 COE892-VM-2 python3[3611]: 2026-03-16T20:38:06 INFO [sync_agent] ProxSyncQ sync agent starting  node=COE892-VM-2
+Mar 16 20:38:06 COE892-VM-2 python3[3611]: 2026-03-16T20:38:06 INFO [sync_agent]   watch dir   : /srv/proxsyncq/watch
+Mar 16 20:38:06 COE892-VM-2 python3[3611]: 2026-03-16T20:38:06 INFO [sync_agent]   shared sync : /srv/proxsyncq/shared/sync
+Mar 16 20:38:06 COE892-VM-2 python3[3611]: 2026-03-16T20:38:06 INFO [sync_agent]   pull interval: 10s
+Mar 16 20:38:06 COE892-VM-2 python3[3611]: 2026-03-16T20:38:06 INFO [sync_agent] ensured dir: /srv/proxsyncq/watch
+Mar 16 20:38:06 COE892-VM-2 python3[3611]: 2026-03-16T20:38:06 INFO [sync_agent] ensured dir: /srv/proxsyncq/shared/sync/COE892-VM-2
+Mar 16 20:38:06 COE892-VM-2 python3[3611]: 2026-03-16T20:38:06 INFO [sync_agent] ensured dir: /srv/proxsyncq/shared/conflicts
+Mar 16 20:38:06 COE892-VM-2 python3[3611]: 2026-03-16T20:38:06 INFO [sync_agent] DB connection OK  (10.26.0.171:5432/proxsyncq)
+Mar 16 20:38:06 COE892-VM-2 python3[3611]: 2026-03-16T20:38:06 INFO [sync_agent] PUSH  conflict_test.txt  (552bf9b8209c)
+Mar 16 20:38:06 COE892-VM-2 python3[3611]: 2026-03-16T20:38:06 INFO [sync_agent] pull loop started (every 10s)
+Mar 16 20:38:06 COE892-VM-2 python3[3611]: 2026-03-16T20:38:06 INFO [sync_agent] watchdog started on /srv/proxsyncq/watch
+Mar 16 20:38:06 COE892-VM-2 python3[3611]: 2026-03-16T20:38:06 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:38:16 COE892-VM-2 python3[3611]: 2026-03-16T20:38:16 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:38:16 COE892-VM-2 python3[3611]: 2026-03-16T20:38:16 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:38:26 COE892-VM-2 python3[3611]: 2026-03-16T20:38:26 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:38:26 COE892-VM-2 python3[3611]: 2026-03-16T20:38:26 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:38:36 COE892-VM-2 python3[3611]: 2026-03-16T20:38:36 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:38:36 COE892-VM-2 python3[3611]: 2026-03-16T20:38:36 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:38:46 COE892-VM-2 python3[3611]: 2026-03-16T20:38:46 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:38:46 COE892-VM-2 python3[3611]: 2026-03-16T20:38:46 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:38:56 COE892-VM-2 python3[3611]: 2026-03-16T20:38:56 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:38:56 COE892-VM-2 python3[3611]: 2026-03-16T20:38:56 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:39:06 COE892-VM-2 python3[3611]: 2026-03-16T20:39:06 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:39:06 COE892-VM-2 python3[3611]: 2026-03-16T20:39:06 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:39:16 COE892-VM-2 python3[3611]: 2026-03-16T20:39:16 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:39:16 COE892-VM-2 python3[3611]: 2026-03-16T20:39:16 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:39:26 COE892-VM-2 python3[3611]: 2026-03-16T20:39:26 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:39:26 COE892-VM-2 python3[3611]: 2026-03-16T20:39:26 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:39:36 COE892-VM-2 python3[3611]: 2026-03-16T20:39:36 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:39:36 COE892-VM-2 python3[3611]: 2026-03-16T20:39:36 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:39:46 COE892-VM-2 python3[3611]: 2026-03-16T20:39:46 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:39:46 COE892-VM-2 python3[3611]: 2026-03-16T20:39:46 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:39:56 COE892-VM-2 python3[3611]: 2026-03-16T20:39:56 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:39:56 COE892-VM-2 python3[3611]: 2026-03-16T20:39:56 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:40:06 COE892-VM-2 python3[3611]: 2026-03-16T20:40:06 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:40:06 COE892-VM-2 python3[3611]: 2026-03-16T20:40:06 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:40:16 COE892-VM-2 python3[3611]: 2026-03-16T20:40:16 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:40:16 COE892-VM-2 python3[3611]: 2026-03-16T20:40:16 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:40:26 COE892-VM-2 python3[3611]: 2026-03-16T20:40:26 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:40:26 COE892-VM-2 python3[3611]: 2026-03-16T20:40:26 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:40:36 COE892-VM-2 python3[3611]: 2026-03-16T20:40:36 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:40:36 COE892-VM-2 python3[3611]: 2026-03-16T20:40:36 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:40:46 COE892-VM-2 python3[3611]: 2026-03-16T20:40:46 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:40:46 COE892-VM-2 python3[3611]: 2026-03-16T20:40:46 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:40:56 COE892-VM-2 python3[3611]: 2026-03-16T20:40:56 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:40:56 COE892-VM-2 python3[3611]: 2026-03-16T20:40:56 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:06 COE892-VM-2 python3[3611]: 2026-03-16T20:41:06 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:06 COE892-VM-2 python3[3611]: 2026-03-16T20:41:06 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:16 COE892-VM-2 python3[3611]: 2026-03-16T20:41:16 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:16 COE892-VM-2 python3[3611]: 2026-03-16T20:41:16 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:26 COE892-VM-2 python3[3611]: 2026-03-16T20:41:26 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:26 COE892-VM-2 python3[3611]: 2026-03-16T20:41:26 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:36 COE892-VM-2 python3[3611]: 2026-03-16T20:41:36 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:36 COE892-VM-2 python3[3611]: 2026-03-16T20:41:36 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:46 COE892-VM-2 python3[3611]: 2026-03-16T20:41:46 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:46 COE892-VM-2 python3[3611]: 2026-03-16T20:41:46 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:56 COE892-VM-2 python3[3611]: 2026-03-16T20:41:56 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:56 COE892-VM-2 python3[3611]: 2026-03-16T20:41:56 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:42:06 COE892-VM-2 python3[3611]: 2026-03-16T20:42:06 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:42:06 COE892-VM-2 python3[3611]: 2026-03-16T20:42:06 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:42:10 COE892-VM-2 systemd[1]: Stopping proxsyncq-sync-agent.service - ProxSyncQ Sync Agent...
+Mar 16 20:42:10 COE892-VM-2 systemd[1]: proxsyncq-sync-agent.service: Deactivated successfully.
+Mar 16 20:42:10 COE892-VM-2 systemd[1]: Stopped proxsyncq-sync-agent.service - ProxSyncQ Sync Agent.

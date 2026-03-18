@@ -1,0 +1,9 @@
+   table_name    | count 
+-----------------+-------
+ jobs            |    59
+ sync_events     |    29
+ conflicts       |    28
+ arbiter_actions |    30
+ file_versions   |     6
+(5 rows)
+

@@ -1,0 +1,17 @@
+ 
+Volume Name: proxsyncqvol
+Type: Replicate
+Volume ID: c152bb77-8f77-4f23-8f48-093a24bb828b
+Status: Started
+Snapshot Count: 0
+Number of Bricks: 1 x 3 = 3
+Transport-type: tcp
+Bricks:
+Brick1: 10.26.0.171:/gluster/brick1/proxsyncq
+Brick2: 10.26.0.172:/gluster/brick1/proxsyncq
+Brick3: 10.26.0.173:/gluster/brick1/proxsyncq
+Options Reconfigured:
+performance.client-io-threads: off
+transport.address-family: inet
+storage.fips-mode-rchecksum: on
+cluster.granular-entry-heal: on

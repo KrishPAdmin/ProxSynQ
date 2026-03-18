@@ -1,0 +1,133 @@
+=== RPi ===
+-- proxsyncq-arbiter --
+● proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator
+     Loaded: loaded (/etc/systemd/system/proxsyncq-arbiter.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2026-03-16 20:16:57 EDT; 24h ago
+ Invocation: 80d8c6a83e1f41a6acacd81e12c2acb4
+   Main PID: 188132 (python3)
+      Tasks: 2 (limit: 1584)
+        CPU: 50.227s
+     CGroup: /system.slice/proxsyncq-arbiter.service
+             └─188132 /usr/bin/python3 /home/krishadmin/proxsyncq-rpi/arbiter.py
+
+Mar 16 20:21:16 COE892-RPi python3[188132]: 2026-03-16T20:21:16 WARNING [arbiter] FAIL COE892-VM-3  consecutive=1
+Mar 16 20:21:47 COE892-RPi python3[188132]: 2026-03-16T20:21:47 WARNING [arbiter] FAIL COE892-VM-3  consecutive=2
+Mar 16 20:22:20 COE892-RPi python3[188132]: 2026-03-16T20:22:20 WARNING [arbiter] FAIL COE892-VM-3  consecutive=3
+Mar 16 20:22:20 COE892-RPi python3[188132]: 2026-03-16T20:22:20 INFO [arbiter] COOLDOWN: COE892-VM-3 rebooted 288s ago, skipping (cooldown=300s)
+Mar 16 20:22:53 COE892-RPi python3[188132]: 2026-03-16T20:22:53 WARNING [arbiter] FAIL COE892-VM-3  consecutive=4
+Mar 16 20:22:53 COE892-RPi python3[188132]: 2026-03-16T20:22:53 WARNING [arbiter] ACTION: rebooting COE892-VM-3 (vmid=173) after 4 failures
+Mar 16 20:22:53 COE892-RPi python3[188132]: 2026-03-16T20:22:53 WARNING [arbiter] VM 173 is stopped — sending START
+Mar 16 20:22:53 COE892-RPi python3[188132]: 2026-03-16T20:22:53 INFO [arbiter] ProxMox: start vmid=173 task=UPID:prox:00039E2B:2B60C7A6:69B89EDD:qmstart:173:root@pam!proxsyncq:
+Mar 16 20:22:53 COE892-RPi python3[188132]: 2026-03-16T20:22:53 INFO [arbiter] DB: recorded action=start_vm target=COE892-VM-3 outcome=success
+Mar 16 21:11:24 COE892-RPi python3[188132]: 2026-03-16T21:11:24 WARNING [arbiter] FAIL COE892-VM-1  consecutive=1
+
+-- prometheus-node-exporter --
+● prometheus-node-exporter.service - Prometheus exporter for machine metrics
+     Loaded: loaded (/usr/lib/systemd/system/prometheus-node-exporter.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2026-03-16 01:52:22 EDT; 1 day 18h ago
+ Invocation: b920d714244b4d6dbbd41ef1261482bc
+       Docs: https://github.com/prometheus/node_exporter
+   Main PID: 162127 (prometheus-node)
+      Tasks: 7 (limit: 1584)
+        CPU: 44min 55.516s
+     CGroup: /system.slice/prometheus-node-exporter.service
+             └─162127 /usr/bin/prometheus-node-exporter
+
+=== VM1 (10.26.0.171) ===
+-- sync-agent --
+○ proxsyncq-sync-agent.service - ProxSyncQ Sync Agent
+     Loaded: loaded (/etc/systemd/system/proxsyncq-sync-agent.service; enabled; preset: enabled)
+     Active: inactive (dead) since Mon 2026-03-16 20:42:09 EDT; 23h ago
+   Duration: 4min 3.632s
+    Process: 1095616 ExecStart=/home/krishadmin/.venv/bin/python3 /home/krishadmin/proxsyncq-node-agent/sync_agent.py (code=killed, signal=TERM)
+   Main PID: 1095616 (code=killed, signal=TERM)
+        CPU: 125ms
+
+Mar 16 20:41:36 COE892-VM-1 python3[1095616]: 2026-03-16T20:41:36 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=3428903a6ee0  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:46 COE892-VM-1 python3[1095616]: 2026-03-16T20:41:46 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=3428903a6ee0  COE892-VM-2=552bf9b8209c  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:46 COE892-VM-1 python3[1095616]: 2026-03-16T20:41:46 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=3428903a6ee0  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:56 COE892-VM-1 python3[1095616]: 2026-03-16T20:41:56 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=3428903a6ee0  COE892-VM-2=552bf9b8209c  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:56 COE892-VM-1 python3[1095616]: 2026-03-16T20:41:56 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=3428903a6ee0  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:42:06 COE892-VM-1 python3[1095616]: 2026-03-16T20:42:06 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=3428903a6ee0  COE892-VM-2=552bf9b8209c  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:42:06 COE892-VM-1 python3[1095616]: 2026-03-16T20:42:06 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=3428903a6ee0  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+
+-- node-exporter --
+● prometheus-node-exporter.service - Prometheus exporter for machine metrics
+     Loaded: loaded (/usr/lib/systemd/system/prometheus-node-exporter.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2026-03-06 22:27:07 EST; 1 week 3 days ago
+       Docs: https://github.com/prometheus/node_exporter
+   Main PID: 196296 (prometheus-node)
+      Tasks: 6 (limit: 9431)
+     Memory: 10.2M (peak: 12.6M)
+        CPU: 28min 25.234s
+     CGroup: /system.slice/prometheus-node-exporter.service
+             └─196296 /usr/bin/prometheus-node-exporter
+
+-- node-agent process --
+krishad+ 1101871  0.0  0.7 334740 58880 ?        Ssl  Mar16   1:02 /home/krishadmin/proxsyncq-node-agent/.venv/bin/python3 /home/krishadmin/proxsyncq-node-agent/.venv/bin/uvicorn app:app --host 0.0.0.0 --port 8000
+
+=== VM2 (10.26.0.172) ===
+-- sync-agent --
+○ proxsyncq-sync-agent.service - ProxSyncQ Sync Agent
+     Loaded: loaded (/etc/systemd/system/proxsyncq-sync-agent.service; enabled; preset: enabled)
+     Active: inactive (dead) since Mon 2026-03-16 20:42:10 EDT; 23h ago
+   Duration: 4min 3.848s
+    Process: 3611 ExecStart=/home/krishadmin/.venv/bin/python3 /home/krishadmin/proxsyncq-node-agent/sync_agent.py (code=killed, signal=TERM)
+   Main PID: 3611 (code=killed, signal=TERM)
+        CPU: 122ms
+
+Mar 16 20:41:36 COE892-VM-2 python3[3611]: 2026-03-16T20:41:36 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:46 COE892-VM-2 python3[3611]: 2026-03-16T20:41:46 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:46 COE892-VM-2 python3[3611]: 2026-03-16T20:41:46 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:56 COE892-VM-2 python3[3611]: 2026-03-16T20:41:56 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:56 COE892-VM-2 python3[3611]: 2026-03-16T20:41:56 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:42:06 COE892-VM-2 python3[3611]: 2026-03-16T20:42:06 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:42:06 COE892-VM-2 python3[3611]: 2026-03-16T20:42:06 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=552bf9b8209c  COE892-VM-3=5a6444649833  → saved to /srv/proxsyncq/shared/conflicts
+
+-- node-exporter --
+● prometheus-node-exporter.service - Prometheus exporter for machine metrics
+     Loaded: loaded (/usr/lib/systemd/system/prometheus-node-exporter.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2026-03-16 20:19:48 EDT; 24h ago
+       Docs: https://github.com/prometheus/node_exporter
+   Main PID: 704 (prometheus-node)
+      Tasks: 6 (limit: 9431)
+     Memory: 22.5M (peak: 24.5M)
+        CPU: 2min 28.537s
+     CGroup: /system.slice/prometheus-node-exporter.service
+             └─704 /usr/bin/prometheus-node-exporter
+
+-- node-agent process --
+krishad+    6117  0.0  0.7 261012 58352 ?        Ssl  Mar16   0:59 /home/krishadmin/proxsyncq-node-agent/.venv/bin/python3 /home/krishadmin/proxsyncq-node-agent/.venv/bin/uvicorn app:app --host 0.0.0.0 --port 8000
+
+=== VM3 (10.26.0.173) ===
+-- sync-agent --
+○ proxsyncq-sync-agent.service - ProxSyncQ Sync Agent
+     Loaded: loaded (/etc/systemd/system/proxsyncq-sync-agent.service; enabled; preset: enabled)
+     Active: inactive (dead) since Mon 2026-03-16 20:42:10 EDT; 23h ago
+   Duration: 4min 4.104s
+    Process: 3077 ExecStart=/home/krishadmin/.venv/bin/python3 /home/krishadmin/proxsyncq-node-agent/sync_agent.py (code=killed, signal=TERM)
+   Main PID: 3077 (code=killed, signal=TERM)
+        CPU: 121ms
+
+Mar 16 20:41:37 COE892-VM-3 python3[3077]: 2026-03-16T20:41:37 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=5a6444649833  COE892-VM-2=552bf9b8209c  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:47 COE892-VM-3 python3[3077]: 2026-03-16T20:41:47 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=5a6444649833  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:47 COE892-VM-3 python3[3077]: 2026-03-16T20:41:47 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=5a6444649833  COE892-VM-2=552bf9b8209c  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:57 COE892-VM-3 python3[3077]: 2026-03-16T20:41:57 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=5a6444649833  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:41:57 COE892-VM-3 python3[3077]: 2026-03-16T20:41:57 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=5a6444649833  COE892-VM-2=552bf9b8209c  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:42:07 COE892-VM-3 python3[3077]: 2026-03-16T20:42:07 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=5a6444649833  COE892-VM-1=3428903a6ee0  → saved to /srv/proxsyncq/shared/conflicts
+Mar 16 20:42:07 COE892-VM-3 python3[3077]: 2026-03-16T20:42:07 WARNING [sync_agent] CONFLICT  conflict_test.txt  local=5a6444649833  COE892-VM-2=552bf9b8209c  → saved to /srv/proxsyncq/shared/conflicts
+
+-- node-exporter --
+● prometheus-node-exporter.service - Prometheus exporter for machine metrics
+     Loaded: loaded (/usr/lib/systemd/system/prometheus-node-exporter.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2026-03-16 20:22:59 EDT; 24h ago
+       Docs: https://github.com/prometheus/node_exporter
+   Main PID: 710 (prometheus-node)
+      Tasks: 6 (limit: 9431)
+     Memory: 22.8M (peak: 24.6M)
+        CPU: 2min 29.478s
+     CGroup: /system.slice/prometheus-node-exporter.service
+             └─710 /usr/bin/prometheus-node-exporter
+
+-- node-agent process --
+krishad+    6175  0.0  0.7 334744 58660 ?        Ssl  Mar16   0:58 /home/krishadmin/proxsyncq-node-agent/.venv/bin/python3 /home/krishadmin/proxsyncq-node-agent/.venv/bin/uvicorn app:app --host 0.0.0.0 --port 8000

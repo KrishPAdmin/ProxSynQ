@@ -1,0 +1,34 @@
+ id |  action   |   target    |                           reason                            | outcome |                             proxmox_task                             |      triggered_at_edt      
+----+-----------+-------------+-------------------------------------------------------------+---------+----------------------------------------------------------------------+----------------------------
+  4 | reboot_vm | COE892-VM-1 | node failed 3 consecutive health checks                     | success | UPID:prox:001                                                        | 2026-03-16 21:17:29.694654
+  5 | start_vm  | COE892-VM-2 | node failed 3 consecutive health checks                     | success | UPID:prox:002                                                        | 2026-03-16 21:12:29.694654
+  6 | reboot_vm | COE892-VM-3 | node failed 3 consecutive health checks                     | failed  | UPID:prox:003                                                        | 2026-03-16 21:07:29.694654
+  7 | start_vm  | COE892-VM-1 | node failed 3 consecutive health checks                     | success | UPID:prox:004                                                        | 2026-03-16 21:02:29.694654
+  8 | reboot_vm | COE892-VM-2 | node failed 3 consecutive health checks                     | success | UPID:prox:005                                                        | 2026-03-16 20:57:29.694654
+  9 | start_vm  | COE892-VM-3 | node failed 3 consecutive health checks                     | success | UPID:prox:006                                                        | 2026-03-16 20:52:29.694654
+ 10 | reboot_vm | COE892-VM-1 | node failed 3 consecutive health checks                     | failed  | UPID:prox:007                                                        | 2026-03-16 20:47:29.694654
+ 11 | start_vm  | COE892-VM-2 | node failed 3 consecutive health checks                     | success | UPID:prox:008                                                        | 2026-03-16 20:42:29.694654
+ 12 | reboot_vm | COE892-VM-3 | node failed 3 consecutive health checks                     | success | UPID:prox:009                                                        | 2026-03-16 20:37:29.694654
+ 13 | start_vm  | COE892-VM-1 | node failed 3 consecutive health checks                     | success | UPID:prox:010                                                        | 2026-03-16 20:32:29.694654
+ 14 | reboot_vm | COE892-VM-2 | node failed 3 consecutive health checks                     | success | UPID:prox:011                                                        | 2026-03-16 20:27:29.694654
+  3 | start_vm  | COE892-VM-3 | node failed 3 consecutive health checks (vm_status=stopped) | success | UPID:prox:00039E2B:2B60C7A6:69B89EDD:qmstart:173:root@pam!proxsyncq: | 2026-03-16 20:22:53.552444
+ 15 | start_vm  | COE892-VM-3 | node failed 3 consecutive health checks                     | failed  | UPID:prox:012                                                        | 2026-03-16 20:22:29.694654
+  2 | start_vm  | COE892-VM-2 | node failed 3 consecutive health checks (vm_status=stopped) | success | UPID:prox:000398EE:2B607D15:69B89E1E:qmstart:172:root@pam!proxsyncq: | 2026-03-16 20:19:42.662298
+  1 | start_vm  | COE892-VM-3 | node failed 3 consecutive health checks (vm_status=stopped) | success | UPID:prox:0003955D:2B604AA4:69B89D9D:qmstart:173:root@pam!proxsyncq: | 2026-03-16 20:17:33.530654
+ 16 | reboot_vm | COE892-VM-1 | node failed 3 consecutive health checks                     | success | UPID:prox:013                                                        | 2026-03-16 20:17:29.694654
+ 17 | start_vm  | COE892-VM-2 | node failed 3 consecutive health checks                     | success | UPID:prox:014                                                        | 2026-03-16 20:12:29.694654
+ 18 | reboot_vm | COE892-VM-3 | node failed 3 consecutive health checks                     | success | UPID:prox:015                                                        | 2026-03-16 20:07:29.694654
+ 19 | start_vm  | COE892-VM-1 | node failed 3 consecutive health checks                     | success | UPID:prox:016                                                        | 2026-03-16 20:02:29.694654
+ 20 | reboot_vm | COE892-VM-2 | node failed 3 consecutive health checks                     | failed  | UPID:prox:017                                                        | 2026-03-16 19:57:29.694654
+ 21 | start_vm  | COE892-VM-3 | node failed 3 consecutive health checks                     | success | UPID:prox:018                                                        | 2026-03-16 19:52:29.694654
+ 22 | reboot_vm | COE892-VM-1 | node failed 3 consecutive health checks                     | success | UPID:prox:019                                                        | 2026-03-16 19:47:29.694654
+ 23 | start_vm  | COE892-VM-2 | node failed 3 consecutive health checks                     | success | UPID:prox:020                                                        | 2026-03-16 19:42:29.694654
+ 24 | reboot_vm | COE892-VM-3 | node failed 3 consecutive health checks                     | success | UPID:prox:021                                                        | 2026-03-16 19:37:29.694654
+ 25 | start_vm  | COE892-VM-1 | node failed 3 consecutive health checks                     | failed  | UPID:prox:022                                                        | 2026-03-16 19:32:29.694654
+ 26 | reboot_vm | COE892-VM-2 | node failed 3 consecutive health checks                     | success | UPID:prox:023                                                        | 2026-03-16 19:27:29.694654
+ 27 | start_vm  | COE892-VM-3 | node failed 3 consecutive health checks                     | success | UPID:prox:024                                                        | 2026-03-16 19:22:29.694654
+ 28 | reboot_vm | COE892-VM-1 | node failed 3 consecutive health checks                     | success | UPID:prox:025                                                        | 2026-03-16 19:17:29.694654
+ 29 | start_vm  | COE892-VM-2 | node failed 3 consecutive health checks                     | success | UPID:prox:026                                                        | 2026-03-16 19:12:29.694654
+ 30 | reboot_vm | COE892-VM-3 | node failed 3 consecutive health checks                     | failed  | UPID:prox:027                                                        | 2026-03-16 19:07:29.694654
+(30 rows)
+

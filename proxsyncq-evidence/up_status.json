@@ -1,0 +1,96 @@
+{
+    "status": "success",
+    "data": {
+        "resultType": "vector",
+        "result": [
+            {
+                "metric": {
+                    "__name__": "up",
+                    "instance": "10.26.0.172:9100",
+                    "job": "node_exporter"
+                },
+                "value": [
+                    1773793412.506,
+                    "1"
+                ]
+            },
+            {
+                "metric": {
+                    "__name__": "up",
+                    "instance": "10.26.0.171:8000",
+                    "job": "node_agent"
+                },
+                "value": [
+                    1773793412.506,
+                    "1"
+                ]
+            },
+            {
+                "metric": {
+                    "__name__": "up",
+                    "instance": "10.26.0.172:8000",
+                    "job": "node_agent"
+                },
+                "value": [
+                    1773793412.506,
+                    "1"
+                ]
+            },
+            {
+                "metric": {
+                    "__name__": "up",
+                    "instance": "10.26.0.173:8000",
+                    "job": "node_agent"
+                },
+                "value": [
+                    1773793412.506,
+                    "1"
+                ]
+            },
+            {
+                "metric": {
+                    "__name__": "up",
+                    "instance": "10.26.0.173:9100",
+                    "job": "node_exporter"
+                },
+                "value": [
+                    1773793412.506,
+                    "1"
+                ]
+            },
+            {
+                "metric": {
+                    "__name__": "up",
+                    "instance": "10.26.0.171:9100",
+                    "job": "node_exporter"
+                },
+                "value": [
+                    1773793412.506,
+                    "1"
+                ]
+            },
+            {
+                "metric": {
+                    "__name__": "up",
+                    "instance": "10.26.0.170:9100",
+                    "job": "node_exporter"
+                },
+                "value": [
+                    1773793412.506,
+                    "1"
+                ]
+            },
+            {
+                "metric": {
+                    "__name__": "up",
+                    "instance": "prometheus:9090",
+                    "job": "prometheus"
+                },
+                "value": [
+                    1773793412.506,
+                    "1"
+                ]
+            }
+        ]
+    }
+}

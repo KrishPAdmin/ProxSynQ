@@ -1,0 +1,61 @@
+{
+    "consumer_details": [],
+    "arguments": {},
+    "auto_delete": false,
+    "consumer_capacity": 0,
+    "consumer_utilisation": 0,
+    "consumers": 0,
+    "deliveries": [],
+    "durable": true,
+    "effective_policy_definition": {},
+    "exclusive": false,
+    "exclusive_consumer_tag": null,
+    "garbage_collection": {
+        "fullsweep_after": 65535,
+        "max_heap_size": 0,
+        "min_bin_vheap_size": 46422,
+        "min_heap_size": 233,
+        "minor_gcs": 4
+    },
+    "head_message_timestamp": null,
+    "idle_since": "2026-03-07T03:27:09.907+00:00",
+    "incoming": [],
+    "memory": 6688,
+    "message_bytes": 0,
+    "message_bytes_paged_out": 0,
+    "message_bytes_persistent": 0,
+    "message_bytes_ram": 0,
+    "message_bytes_ready": 0,
+    "message_bytes_unacknowledged": 0,
+    "messages": 0,
+    "messages_details": {
+        "rate": 0.0
+    },
+    "messages_paged_out": 0,
+    "messages_persistent": 0,
+    "messages_ram": 0,
+    "messages_ready": 0,
+    "messages_ready_details": {
+        "rate": 0.0
+    },
+    "messages_ready_ram": 0,
+    "messages_unacknowledged": 0,
+    "messages_unacknowledged_details": {
+        "rate": 0.0
+    },
+    "messages_unacknowledged_ram": 0,
+    "name": "proxsyncq_jobs",
+    "node": "rabbit@f00f2ac65596",
+    "operator_policy": null,
+    "policy": null,
+    "recoverable_slaves": null,
+    "reductions": 11172,
+    "reductions_details": {
+        "rate": 0.0
+    },
+    "single_active_consumer_tag": null,
+    "state": "running",
+    "storage_version": 1,
+    "type": "classic",
+    "vhost": "/"
+}

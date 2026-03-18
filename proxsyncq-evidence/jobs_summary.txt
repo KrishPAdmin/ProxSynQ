@@ -1,0 +1,12 @@
+ claimed_by  |  job_type   |   state   | count 
+-------------+-------------+-----------+-------
+ COE892-VM-1 | crypto_burn | completed |     3
+ COE892-VM-1 | demo_write  | succeeded |    15
+ COE892-VM-1 | sleep       | completed |     1
+ COE892-VM-2 | crypto_burn | completed |     6
+ COE892-VM-2 | demo_write  | succeeded |    13
+ COE892-VM-2 | sleep       | succeeded |     1
+ COE892-VM-3 | crypto_burn | completed |     6
+ COE892-VM-3 | demo_write  | succeeded |    14
+(8 rows)
+

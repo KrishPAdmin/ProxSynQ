@@ -1,0 +1,129 @@
+--- mount ---
+10.26.0.172:/proxsyncqvol on /srv/proxsyncq/shared type fuse.glusterfs (rw,relatime,user_id=0,group_id=0,default_permissions,allow_other,max_read=131072,_netdev)
+--- df ---
+Filesystem                 Size  Used Avail Use% Mounted on
+10.26.0.172:/proxsyncqvol   98G   11G   84G  12% /srv/proxsyncq/shared
+--- ls shared ---
+total 36
+drwxrwsr-x 8 krishadmin krishadmin  4096 Mar 16 19:40 .
+drwxr-xr-x 4 root       root        4096 Mar 16 19:42 ..
+drwxr-sr-x 2 krishadmin krishadmin 12288 Mar 16 20:42 conflicts
+drwxrwsr-x 6 krishadmin krishadmin  4096 Mar  6 23:53 demo_lifecycle
+-rw-rw-r-- 1 krishadmin krishadmin    38 Mar  6 01:21 proof_10_26_0_171.txt
+-rw-rw-r-- 1 krishadmin krishadmin    38 Mar  6 01:21 proof_10_26_0_172.txt
+-rw-rw-r-- 1 krishadmin krishadmin    38 Mar  6 01:21 proof_10_26_0_173.txt
+-rw-rw-r-- 1 krishadmin krishadmin    38 Mar  5 23:55 proof_COE892-VM-1.txt
+-rw-rw-r-- 1 krishadmin krishadmin    38 Mar  5 23:55 proof_COE892-VM-2.txt
+-rw-rw-r-- 1 krishadmin krishadmin    38 Mar  5 23:55 proof_COE892-VM-3.txt
+drwxrwsr-x 2 krishadmin krishadmin  4096 Mar  6 23:42 results
+-rw-rw-r-- 1 krishadmin krishadmin    44 Mar  6 23:57 rpi_cluster_proof.txt
+drwxr-sr-x 5 krishadmin krishadmin  4096 Mar 16 19:42 sync
+--- ls watch ---
+total 16
+drwxr-xr-x 2 krishadmin krishadmin 4096 Mar 16 20:29 .
+drwxr-xr-x 4 root       root       4096 Mar 16 19:42 ..
+-rw-rw-r-- 1 krishadmin krishadmin   67 Mar 16 20:38 conflict_test.txt
+-rw-rw-r-- 1 krishadmin krishadmin   51 Mar 16 19:43 test.txt
+--- ls sync slots ---
+total 20
+drwxr-sr-x 5 krishadmin krishadmin 4096 Mar 16 19:42 .
+drwxrwsr-x 8 krishadmin krishadmin 4096 Mar 16 19:40 ..
+drwxr-sr-x 2 krishadmin krishadmin 4096 Mar 16 20:38 COE892-VM-1
+drwxr-sr-x 2 krishadmin krishadmin 4096 Mar 16 20:38 COE892-VM-2
+drwxr-sr-x 2 krishadmin krishadmin 4096 Mar 16 20:38 COE892-VM-3
+--- ls conflicts ---
+total 62
+drwxr-sr-x 2 krishadmin krishadmin 12288 Mar 16 20:42 .
+drwxrwsr-x 8 krishadmin krishadmin  4096 Mar 16 19:40 ..
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T003806
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T003816
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T003826
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T003836
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T003846
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T003856
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T003906
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T003916
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T003926
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T003936
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T003946
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T003956
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004006
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004016
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004026
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004036
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004046
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004056
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004106
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004116
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004126
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004127
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004136
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004137
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004146
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004147
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004156
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004157
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004206
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-1.20260317T004207
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T003806
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T003816
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T003826
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T003836
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T003846
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T003856
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T003906
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T003916
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T003926
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T003936
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T003946
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T003956
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004006
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004016
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004026
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004036
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004046
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004056
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004106
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004116
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004117
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004126
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004127
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004136
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004137
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004146
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004147
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004156
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004157
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004206
+-rw-rw-r-- 1 krishadmin krishadmin    67 Mar 16 20:38 conflict_test.txt.COE892-VM-2.20260317T004207
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T003806
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T003816
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T003826
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T003836
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T003846
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T003856
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T003906
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T003916
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T003926
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T003936
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T003946
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T003956
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004006
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004016
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004026
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004036
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004046
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004056
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004106
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004116
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004117
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004126
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004127
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004136
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004137
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004146
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004147
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004156
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004157
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004206
+-rw-rw-r-- 1 krishadmin krishadmin    17 Mar 16 20:06 conflict_test.txt.COE892-VM-3.20260317T004207

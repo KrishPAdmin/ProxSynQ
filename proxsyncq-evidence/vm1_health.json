@@ -1,0 +1,12 @@
+--- VM1 /health ---
+{
+    "node": "COE892-VM-1",
+    "shared_path": "/srv/proxsyncq/shared",
+    "shared_path_exists": true,
+    "shared_path_mounted": true,
+    "results_dir": "/srv/proxsyncq/shared/results",
+    "results_dir_exists": true,
+    "rabbitmq": true,
+    "postgres": true,
+    "time": "2026-03-18T00:23:27.037833+00:00"
+}

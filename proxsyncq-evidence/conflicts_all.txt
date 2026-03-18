@@ -1,0 +1,32 @@
+ id  |     file_path     |   node_a    |   node_b    | hash_a_short | hash_b_short | clock_a | clock_b | resolved |      detected_at_edt       
+-----+-------------------+-------------+-------------+--------------+--------------+---------+---------+----------+----------------------------
+ 169 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:59.288295
+ 168 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:58.47852
+ 167 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:57.659486
+ 166 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:56.77062
+ 165 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:55.88823
+ 164 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:55.064953
+ 163 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:54.278743
+ 162 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:53.496026
+ 161 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:52.737645
+ 160 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:51.997695
+ 159 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:51.174579
+ 158 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:50.454683
+ 157 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:49.617226
+ 156 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:48.835522
+ 155 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:48.07749
+ 154 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:47.253037
+ 153 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:46.471586
+ 152 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:45.749697
+ 151 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:44.979722
+ 150 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:44.162387
+ 149 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:42.772472
+ 148 | test_file.txt     | COE892-VM-1 | COE892-VM-2 | abc123       | def456       |       0 |       0 | f        | 2026-03-16 21:19:41.304529
+   7 | conflict_test.txt | COE892-VM-2 | COE892-VM-3 | 552bf9b8209c | 5a6444649833 |       1 |       1 | f        | 2026-03-16 20:38:16.440312
+   5 | conflict_test.txt | COE892-VM-1 | COE892-VM-3 | 3428903a6ee0 | 5a6444649833 |       1 |       1 | f        | 2026-03-16 20:38:16.224077
+   3 | conflict_test.txt | COE892-VM-3 | COE892-VM-2 | 5a6444649833 | 552bf9b8209c |       1 |       1 | f        | 2026-03-16 20:38:06.622257
+   2 | conflict_test.txt | COE892-VM-3 | COE892-VM-1 | 5a6444649833 | 3428903a6ee0 |       1 |       1 | f        | 2026-03-16 20:38:06.612319
+   1 | conflict_test.txt | COE892-VM-2 | COE892-VM-1 | 552bf9b8209c | 3428903a6ee0 |       1 |       1 | f        | 2026-03-16 20:38:06.410539
+   4 | conflict_test.txt | COE892-VM-1 | COE892-VM-2 | 3428903a6ee0 | 552bf9b8209c |       1 |       1 | f        | 2026-03-16 20:38:06.206984
+(28 rows)
+

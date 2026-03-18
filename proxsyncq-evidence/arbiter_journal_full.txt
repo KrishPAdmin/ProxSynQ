@@ -1,0 +1,119 @@
+Mar 16 19:59:39 COE892-RPi systemd[1]: Started proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 19:59:39 COE892-RPi python3[181400]: ERROR: psycopg2 not found. Run: pip3 install psycopg2-binary requests
+Mar 16 19:59:39 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 19:59:39 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Failed with result 'exit-code'.
+Mar 16 19:59:55 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Scheduled restart job, restart counter is at 1.
+Mar 16 19:59:55 COE892-RPi systemd[1]: Started proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 19:59:55 COE892-RPi python3[181581]: ERROR: psycopg2 not found. Run: pip3 install psycopg2-binary requests
+Mar 16 19:59:55 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 19:59:55 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Failed with result 'exit-code'.
+Mar 16 20:00:10 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Scheduled restart job, restart counter is at 2.
+Mar 16 20:00:10 COE892-RPi systemd[1]: Started proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 20:00:10 COE892-RPi python3[181712]: ERROR: psycopg2 not found. Run: pip3 install psycopg2-binary requests
+Mar 16 20:00:10 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:00:10 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Failed with result 'exit-code'.
+Mar 16 20:00:12 COE892-RPi systemd[1]: Stopped proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 20:00:12 COE892-RPi systemd[1]: Started proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 20:00:12 COE892-RPi python3[181731]: ERROR: psycopg2 not found. Run: pip3 install psycopg2-binary requests
+Mar 16 20:00:12 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:00:12 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Failed with result 'exit-code'.
+Mar 16 20:00:27 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Scheduled restart job, restart counter is at 1.
+Mar 16 20:00:27 COE892-RPi systemd[1]: Started proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 20:00:27 COE892-RPi python3[181856]: ERROR: psycopg2 not found. Run: pip3 install psycopg2-binary requests
+Mar 16 20:00:27 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Main process exited, code=exited, status=1/FAILURE
+Mar 16 20:00:27 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Failed with result 'exit-code'.
+Mar 16 20:00:37 COE892-RPi systemd[1]: Stopped proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 20:00:51 COE892-RPi systemd[1]: Started proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 20:00:51 COE892-RPi python3[182193]: 2026-03-16T20:00:51 INFO [arbiter] ProxSyncQ arbiter starting
+Mar 16 20:00:51 COE892-RPi python3[182193]: 2026-03-16T20:00:51 INFO [arbiter]   nodes        : ['COE892-VM-1', 'COE892-VM-2', 'COE892-VM-3']
+Mar 16 20:00:51 COE892-RPi python3[182193]: 2026-03-16T20:00:51 INFO [arbiter]   poll interval: 30s
+Mar 16 20:00:51 COE892-RPi python3[182193]: 2026-03-16T20:00:51 INFO [arbiter]   fail threshold: 3
+Mar 16 20:00:51 COE892-RPi python3[182193]: 2026-03-16T20:00:51 INFO [arbiter]   cooldown     : 300s
+Mar 16 20:00:51 COE892-RPi python3[182193]: 2026-03-16T20:00:51 INFO [arbiter]   proxmox      : 10.26.0.50:8006  node=prox
+Mar 16 20:00:51 COE892-RPi python3[182193]: 2026-03-16T20:00:51 INFO [arbiter]   postgres     : 10.26.0.171:5432/proxsyncq
+Mar 16 20:00:51 COE892-RPi python3[182193]: 2026-03-16T20:00:51 INFO [arbiter] DB connection OK
+Mar 16 20:00:51 COE892-RPi python3[182193]: 2026-03-16T20:00:51 INFO [arbiter] ProxMox API connection OK
+Mar 16 20:00:51 COE892-RPi python3[182193]: 2026-03-16T20:00:51 INFO [arbiter] Poll loop started — interval=30s fail_threshold=3 cooldown=300s
+Mar 16 20:00:51 COE892-RPi python3[182193]: 2026-03-16T20:00:51 INFO [arbiter] Status endpoint: http://0.0.0.0:8090/status
+Mar 16 20:02:25 COE892-RPi python3[182193]: 2026-03-16T20:02:25 WARNING [arbiter] FAIL COE892-VM-1  consecutive=1
+Mar 16 20:02:29 COE892-RPi python3[182193]: 2026-03-16T20:02:29 WARNING [arbiter] FAIL COE892-VM-2  consecutive=1
+Mar 16 20:02:33 COE892-RPi python3[182193]: 2026-03-16T20:02:33 WARNING [arbiter] FAIL COE892-VM-3  consecutive=1
+Mar 16 20:03:07 COE892-RPi python3[182193]: 2026-03-16T20:03:07 WARNING [arbiter] FAIL COE892-VM-1  consecutive=2
+Mar 16 20:03:11 COE892-RPi python3[182193]: 2026-03-16T20:03:11 WARNING [arbiter] FAIL COE892-VM-2  consecutive=2
+Mar 16 20:03:14 COE892-RPi python3[182193]: 2026-03-16T20:03:14 WARNING [arbiter] FAIL COE892-VM-3  consecutive=2
+Mar 16 20:03:46 COE892-RPi python3[182193]: 2026-03-16T20:03:46 WARNING [arbiter] FAIL COE892-VM-3  consecutive=3
+Mar 16 20:08:56 COE892-RPi systemd[1]: Stopping proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator...
+Mar 16 20:08:56 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Deactivated successfully.
+Mar 16 20:08:56 COE892-RPi systemd[1]: Stopped proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 20:09:10 COE892-RPi systemd[1]: Started proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 20:09:11 COE892-RPi python3[184490]: 2026-03-16T20:09:11 INFO [arbiter] ProxSyncQ arbiter starting
+Mar 16 20:09:11 COE892-RPi python3[184490]: 2026-03-16T20:09:11 INFO [arbiter]   nodes        : ['COE892-VM-1', 'COE892-VM-2', 'COE892-VM-3']
+Mar 16 20:09:11 COE892-RPi python3[184490]: 2026-03-16T20:09:11 INFO [arbiter]   poll interval: 30s
+Mar 16 20:09:11 COE892-RPi python3[184490]: 2026-03-16T20:09:11 INFO [arbiter]   fail threshold: 3
+Mar 16 20:09:11 COE892-RPi python3[184490]: 2026-03-16T20:09:11 INFO [arbiter]   cooldown     : 300s
+Mar 16 20:09:11 COE892-RPi python3[184490]: 2026-03-16T20:09:11 INFO [arbiter]   proxmox      : 10.26.0.50:8006  node=prox
+Mar 16 20:09:11 COE892-RPi python3[184490]: 2026-03-16T20:09:11 INFO [arbiter]   postgres     : 10.26.0.171:5432/proxsyncq
+Mar 16 20:09:11 COE892-RPi python3[184490]: 2026-03-16T20:09:11 INFO [arbiter] DB connection OK
+Mar 16 20:09:11 COE892-RPi python3[184490]: 2026-03-16T20:09:11 INFO [arbiter] ProxMox API connection OK
+Mar 16 20:09:13 COE892-RPi python3[184490]: 2026-03-16T20:09:13 WARNING [arbiter] FAIL COE892-VM-3  consecutive=1
+Mar 16 20:09:13 COE892-RPi python3[184490]: 2026-03-16T20:09:13 INFO [arbiter] Poll loop started — interval=30s fail_threshold=3 cooldown=300s
+Mar 16 20:09:13 COE892-RPi python3[184490]: 2026-03-16T20:09:13 INFO [arbiter] Status endpoint: http://0.0.0.0:8090/status
+Mar 16 20:09:16 COE892-RPi python3[184490]: 2026-03-16T20:09:16 WARNING [arbiter] FAIL COE892-VM-3  consecutive=2
+Mar 16 20:09:48 COE892-RPi python3[184490]: 2026-03-16T20:09:48 WARNING [arbiter] FAIL COE892-VM-3  consecutive=3
+Mar 16 20:12:47 COE892-RPi systemd[1]: Stopping proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator...
+Mar 16 20:12:47 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Deactivated successfully.
+Mar 16 20:12:47 COE892-RPi systemd[1]: Stopped proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 20:12:47 COE892-RPi systemd[1]: Started proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 20:12:47 COE892-RPi python3[186185]: 2026-03-16T20:12:47 INFO [arbiter] ProxSyncQ arbiter starting
+Mar 16 20:12:47 COE892-RPi python3[186185]: 2026-03-16T20:12:47 INFO [arbiter]   nodes        : ['COE892-VM-1', 'COE892-VM-2', 'COE892-VM-3']
+Mar 16 20:12:47 COE892-RPi python3[186185]: 2026-03-16T20:12:47 INFO [arbiter]   poll interval: 30s
+Mar 16 20:12:47 COE892-RPi python3[186185]: 2026-03-16T20:12:47 INFO [arbiter]   fail threshold: 3
+Mar 16 20:12:47 COE892-RPi python3[186185]: 2026-03-16T20:12:47 INFO [arbiter]   cooldown     : 300s
+Mar 16 20:12:47 COE892-RPi python3[186185]: 2026-03-16T20:12:47 INFO [arbiter]   proxmox      : 10.26.0.50:8006  node=prox
+Mar 16 20:12:47 COE892-RPi python3[186185]: 2026-03-16T20:12:47 INFO [arbiter]   postgres     : 10.26.0.171:5432/proxsyncq
+Mar 16 20:12:47 COE892-RPi python3[186185]: 2026-03-16T20:12:47 INFO [arbiter] DB connection OK
+Mar 16 20:12:47 COE892-RPi python3[186185]: 2026-03-16T20:12:47 INFO [arbiter] ProxMox API connection OK
+Mar 16 20:12:48 COE892-RPi python3[186185]: 2026-03-16T20:12:48 WARNING [arbiter] FAIL COE892-VM-3  consecutive=1
+Mar 16 20:12:48 COE892-RPi python3[186185]: 2026-03-16T20:12:48 INFO [arbiter] Poll loop started — interval=30s fail_threshold=3 cooldown=300s
+Mar 16 20:12:48 COE892-RPi python3[186185]: 2026-03-16T20:12:48 INFO [arbiter] Status endpoint: http://0.0.0.0:8090/status
+Mar 16 20:12:51 COE892-RPi python3[186185]: 2026-03-16T20:12:51 WARNING [arbiter] FAIL COE892-VM-3  consecutive=2
+Mar 16 20:13:23 COE892-RPi python3[186185]: 2026-03-16T20:13:23 WARNING [arbiter] FAIL COE892-VM-3  consecutive=3
+Mar 16 20:16:57 COE892-RPi systemd[1]: Stopping proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator...
+Mar 16 20:16:57 COE892-RPi systemd[1]: proxsyncq-arbiter.service: Deactivated successfully.
+Mar 16 20:16:57 COE892-RPi systemd[1]: Stopped proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 20:16:57 COE892-RPi systemd[1]: Started proxsyncq-arbiter.service - ProxSyncQ Arbiter - out-of-band quorum coordinator.
+Mar 16 20:16:57 COE892-RPi python3[188132]: 2026-03-16T20:16:57 INFO [arbiter] ProxSyncQ arbiter starting
+Mar 16 20:16:57 COE892-RPi python3[188132]: 2026-03-16T20:16:57 INFO [arbiter]   nodes        : ['COE892-VM-1', 'COE892-VM-2', 'COE892-VM-3']
+Mar 16 20:16:57 COE892-RPi python3[188132]: 2026-03-16T20:16:57 INFO [arbiter]   poll interval: 30s
+Mar 16 20:16:57 COE892-RPi python3[188132]: 2026-03-16T20:16:57 INFO [arbiter]   fail threshold: 3
+Mar 16 20:16:57 COE892-RPi python3[188132]: 2026-03-16T20:16:57 INFO [arbiter]   cooldown     : 300s
+Mar 16 20:16:57 COE892-RPi python3[188132]: 2026-03-16T20:16:57 INFO [arbiter]   proxmox      : 10.26.0.50:8006  node=prox
+Mar 16 20:16:57 COE892-RPi python3[188132]: 2026-03-16T20:16:57 INFO [arbiter]   postgres     : 10.26.0.171:5432/proxsyncq
+Mar 16 20:16:57 COE892-RPi python3[188132]: 2026-03-16T20:16:57 INFO [arbiter] DB connection OK
+Mar 16 20:16:57 COE892-RPi python3[188132]: 2026-03-16T20:16:57 INFO [arbiter] ProxMox API connection OK
+Mar 16 20:16:58 COE892-RPi python3[188132]: 2026-03-16T20:16:58 WARNING [arbiter] FAIL COE892-VM-3  consecutive=1
+Mar 16 20:16:58 COE892-RPi python3[188132]: 2026-03-16T20:16:58 INFO [arbiter] Poll loop started — interval=30s fail_threshold=3 cooldown=300s
+Mar 16 20:16:58 COE892-RPi python3[188132]: 2026-03-16T20:16:58 INFO [arbiter] Status endpoint: http://0.0.0.0:8090/status
+Mar 16 20:17:01 COE892-RPi python3[188132]: 2026-03-16T20:17:01 WARNING [arbiter] FAIL COE892-VM-3  consecutive=2
+Mar 16 20:17:33 COE892-RPi python3[188132]: 2026-03-16T20:17:33 WARNING [arbiter] FAIL COE892-VM-3  consecutive=3
+Mar 16 20:17:33 COE892-RPi python3[188132]: 2026-03-16T20:17:33 WARNING [arbiter] ACTION: rebooting COE892-VM-3 (vmid=173) after 3 failures
+Mar 16 20:17:33 COE892-RPi python3[188132]: 2026-03-16T20:17:33 WARNING [arbiter] VM 173 is stopped — sending START
+Mar 16 20:17:33 COE892-RPi python3[188132]: 2026-03-16T20:17:33 INFO [arbiter] ProxMox: start vmid=173 task=UPID:prox:0003955D:2B604AA4:69B89D9D:qmstart:173:root@pam!proxsyncq:
+Mar 16 20:17:33 COE892-RPi python3[188132]: 2026-03-16T20:17:33 INFO [arbiter] DB: recorded action=start_vm target=COE892-VM-3 outcome=success
+Mar 16 20:18:37 COE892-RPi python3[188132]: 2026-03-16T20:18:37 WARNING [arbiter] FAIL COE892-VM-2  consecutive=1
+Mar 16 20:19:09 COE892-RPi python3[188132]: 2026-03-16T20:19:09 WARNING [arbiter] FAIL COE892-VM-2  consecutive=2
+Mar 16 20:19:42 COE892-RPi python3[188132]: 2026-03-16T20:19:42 WARNING [arbiter] FAIL COE892-VM-2  consecutive=3
+Mar 16 20:19:42 COE892-RPi python3[188132]: 2026-03-16T20:19:42 WARNING [arbiter] ACTION: rebooting COE892-VM-2 (vmid=172) after 3 failures
+Mar 16 20:19:42 COE892-RPi python3[188132]: 2026-03-16T20:19:42 WARNING [arbiter] VM 172 is stopped — sending START
+Mar 16 20:19:42 COE892-RPi python3[188132]: 2026-03-16T20:19:42 INFO [arbiter] ProxMox: start vmid=172 task=UPID:prox:000398EE:2B607D15:69B89E1E:qmstart:172:root@pam!proxsyncq:
+Mar 16 20:19:42 COE892-RPi python3[188132]: 2026-03-16T20:19:42 INFO [arbiter] DB: recorded action=start_vm target=COE892-VM-2 outcome=success
+Mar 16 20:21:16 COE892-RPi python3[188132]: 2026-03-16T20:21:16 WARNING [arbiter] FAIL COE892-VM-3  consecutive=1
+Mar 16 20:21:47 COE892-RPi python3[188132]: 2026-03-16T20:21:47 WARNING [arbiter] FAIL COE892-VM-3  consecutive=2
+Mar 16 20:22:20 COE892-RPi python3[188132]: 2026-03-16T20:22:20 WARNING [arbiter] FAIL COE892-VM-3  consecutive=3
+Mar 16 20:22:20 COE892-RPi python3[188132]: 2026-03-16T20:22:20 INFO [arbiter] COOLDOWN: COE892-VM-3 rebooted 288s ago, skipping (cooldown=300s)
+Mar 16 20:22:53 COE892-RPi python3[188132]: 2026-03-16T20:22:53 WARNING [arbiter] FAIL COE892-VM-3  consecutive=4
+Mar 16 20:22:53 COE892-RPi python3[188132]: 2026-03-16T20:22:53 WARNING [arbiter] ACTION: rebooting COE892-VM-3 (vmid=173) after 4 failures
+Mar 16 20:22:53 COE892-RPi python3[188132]: 2026-03-16T20:22:53 WARNING [arbiter] VM 173 is stopped — sending START
+Mar 16 20:22:53 COE892-RPi python3[188132]: 2026-03-16T20:22:53 INFO [arbiter] ProxMox: start vmid=173 task=UPID:prox:00039E2B:2B60C7A6:69B89EDD:qmstart:173:root@pam!proxsyncq:
+Mar 16 20:22:53 COE892-RPi python3[188132]: 2026-03-16T20:22:53 INFO [arbiter] DB: recorded action=start_vm target=COE892-VM-3 outcome=success
+Mar 16 21:11:24 COE892-RPi python3[188132]: 2026-03-16T21:11:24 WARNING [arbiter] FAIL COE892-VM-1  consecutive=1

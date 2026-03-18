@@ -1,0 +1,9 @@
+  node_name  | event_type | count 
+-------------+------------+-------
+ COE892-VM-1 | pushed     |    22
+ COE892-VM-2 | pulled     |     1
+ COE892-VM-2 | pushed     |     2
+ COE892-VM-3 | pulled     |     1
+ COE892-VM-3 | pushed     |     3
+(5 rows)
+

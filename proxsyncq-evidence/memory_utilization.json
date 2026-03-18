@@ -1,0 +1,48 @@
+{
+    "status": "success",
+    "data": {
+        "resultType": "vector",
+        "result": [
+            {
+                "metric": {
+                    "instance": "10.26.0.171:9100",
+                    "job": "node_exporter"
+                },
+                "value": [
+                    1773793412.406,
+                    "10.795100715708694"
+                ]
+            },
+            {
+                "metric": {
+                    "instance": "10.26.0.170:9100",
+                    "job": "node_exporter"
+                },
+                "value": [
+                    1773793412.406,
+                    "26.57597974889304"
+                ]
+            },
+            {
+                "metric": {
+                    "instance": "10.26.0.173:9100",
+                    "job": "node_exporter"
+                },
+                "value": [
+                    1773793412.406,
+                    "7.36884097607814"
+                ]
+            },
+            {
+                "metric": {
+                    "instance": "10.26.0.172:9100",
+                    "job": "node_exporter"
+                },
+                "value": [
+                    1773793412.406,
+                    "7.265641294039405"
+                ]
+            }
+        ]
+    }
+}

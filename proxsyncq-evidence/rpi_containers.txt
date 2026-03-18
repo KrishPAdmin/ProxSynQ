@@ -1,0 +1,4 @@
+NAMES                  STATUS       PORTS                                       IMAGE
+proxsyncq-control-ui   Up 6 hours   0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   proxsyncq-rpi-control_ui
+proxsyncq-grafana      Up 11 days   0.0.0.0:3000->3000/tcp, :::3000->3000/tcp   grafana/grafana:latest
+proxsyncq-prometheus   Up 10 days   0.0.0.0:9090->9090/tcp, :::9090->9090/tcp   prom/prometheus:latest

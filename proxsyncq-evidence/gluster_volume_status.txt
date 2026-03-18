@@ -1,0 +1,14 @@
+Status of volume: proxsyncqvol
+Gluster process                             TCP Port  RDMA Port  Online  Pid
+------------------------------------------------------------------------------
+Brick 10.26.0.171:/gluster/brick1/proxsyncq 50203     0          Y       796998
+Brick 10.26.0.172:/gluster/brick1/proxsyncq 60193     0          Y       1570 
+Brick 10.26.0.173:/gluster/brick1/proxsyncq 53307     0          Y       1580 
+Self-heal Daemon on localhost               N/A       N/A        Y       1587 
+Self-heal Daemon on 10.26.0.171             N/A       N/A        Y       797016
+Self-heal Daemon on 10.26.0.173             N/A       N/A        Y       1597 
+ 
+Task Status of Volume proxsyncqvol
+------------------------------------------------------------------------------
+There are no active volume tasks
+ 
